@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+
+div {
+    background-color: rgb(127, 149, 245);
+    border-radius: 30px;
+}
+
+table {
+    width: 600px;
+    margin: auto;
+}
+
+img {
+    width: 10%;
+    border: 3px dashed black;
+}
