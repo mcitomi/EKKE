@@ -1,0 +1,14 @@
+C:\Users\tomi\Documents\EKKE\magprog\20250923\20250923\bin\Debug\net8.0\20250923.exe
+C:\Users\tomi\Documents\EKKE\magprog\20250923\20250923\bin\Debug\net8.0\20250923.deps.json
+C:\Users\tomi\Documents\EKKE\magprog\20250923\20250923\bin\Debug\net8.0\20250923.runtimeconfig.json
+C:\Users\tomi\Documents\EKKE\magprog\20250923\20250923\bin\Debug\net8.0\20250923.dll
+C:\Users\tomi\Documents\EKKE\magprog\20250923\20250923\bin\Debug\net8.0\20250923.pdb
+C:\Users\tomi\Documents\EKKE\magprog\20250923\20250923\obj\Debug\net8.0\20250923.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomi\Documents\EKKE\magprog\20250923\20250923\obj\Debug\net8.0\20250923.AssemblyInfoInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog\20250923\20250923\obj\Debug\net8.0\20250923.AssemblyInfo.cs
+C:\Users\tomi\Documents\EKKE\magprog\20250923\20250923\obj\Debug\net8.0\20250923.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog\20250923\20250923\obj\Debug\net8.0\20250923.dll
+C:\Users\tomi\Documents\EKKE\magprog\20250923\20250923\obj\Debug\net8.0\refint\20250923.dll
+C:\Users\tomi\Documents\EKKE\magprog\20250923\20250923\obj\Debug\net8.0\20250923.pdb
+C:\Users\tomi\Documents\EKKE\magprog\20250923\20250923\obj\Debug\net8.0\20250923.genruntimeconfig.cache
+C:\Users\tomi\Documents\EKKE\magprog\20250923\20250923\obj\Debug\net8.0\ref\20250923.dll

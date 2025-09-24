@@ -1,0 +1,14 @@
+C:\Users\tomi\Documents\EKKE\magprog\20250923-xytablazat\20250923-xytablazat\bin\Debug\net8.0\20250923-xytablazat.exe
+C:\Users\tomi\Documents\EKKE\magprog\20250923-xytablazat\20250923-xytablazat\bin\Debug\net8.0\20250923-xytablazat.deps.json
+C:\Users\tomi\Documents\EKKE\magprog\20250923-xytablazat\20250923-xytablazat\bin\Debug\net8.0\20250923-xytablazat.runtimeconfig.json
+C:\Users\tomi\Documents\EKKE\magprog\20250923-xytablazat\20250923-xytablazat\bin\Debug\net8.0\20250923-xytablazat.dll
+C:\Users\tomi\Documents\EKKE\magprog\20250923-xytablazat\20250923-xytablazat\bin\Debug\net8.0\20250923-xytablazat.pdb
+C:\Users\tomi\Documents\EKKE\magprog\20250923-xytablazat\20250923-xytablazat\obj\Debug\net8.0\20250923-xytablazat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomi\Documents\EKKE\magprog\20250923-xytablazat\20250923-xytablazat\obj\Debug\net8.0\20250923-xytablazat.AssemblyInfoInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog\20250923-xytablazat\20250923-xytablazat\obj\Debug\net8.0\20250923-xytablazat.AssemblyInfo.cs
+C:\Users\tomi\Documents\EKKE\magprog\20250923-xytablazat\20250923-xytablazat\obj\Debug\net8.0\20250923-xytablazat.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog\20250923-xytablazat\20250923-xytablazat\obj\Debug\net8.0\20250923-xytablazat.dll
+C:\Users\tomi\Documents\EKKE\magprog\20250923-xytablazat\20250923-xytablazat\obj\Debug\net8.0\refint\20250923-xytablazat.dll
+C:\Users\tomi\Documents\EKKE\magprog\20250923-xytablazat\20250923-xytablazat\obj\Debug\net8.0\20250923-xytablazat.pdb
+C:\Users\tomi\Documents\EKKE\magprog\20250923-xytablazat\20250923-xytablazat\obj\Debug\net8.0\20250923-xytablazat.genruntimeconfig.cache
+C:\Users\tomi\Documents\EKKE\magprog\20250923-xytablazat\20250923-xytablazat\obj\Debug\net8.0\ref\20250923-xytablazat.dll

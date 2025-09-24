@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomi\\Documents\\EKKE\\magprog\\20250923-faktoiralis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9920BC8-1744-4C57-BEB7-1AA9FC6146F0}|20250923-faktoiralis\\20250923-faktoiralis.csproj|c:\\users\\tomi\\documents\\ekke\\magprog\\20250923-faktoiralis\\20250923-faktoiralis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9920BC8-1744-4C57-BEB7-1AA9FC6146F0}|20250923-faktoiralis\\20250923-faktoiralis.csproj|solutionrelative:20250923-faktoiralis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tomi\\Documents\\EKKE\\magprog\\20250923-faktoiralis\\20250923-faktoiralis\\Program.cs",
+              "RelativeDocumentMoniker": "20250923-faktoiralis\\Program.cs",
+              "ToolTip": "C:\\Users\\tomi\\Documents\\EKKE\\magprog\\20250923-faktoiralis\\20250923-faktoiralis\\Program.cs",
+              "RelativeToolTip": "20250923-faktoiralis\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T13:05:15.523Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

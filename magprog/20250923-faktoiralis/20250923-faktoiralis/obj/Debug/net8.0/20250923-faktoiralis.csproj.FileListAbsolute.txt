@@ -1,0 +1,14 @@
+C:\Users\tomi\Documents\EKKE\magprog\20250923-faktoiralis\20250923-faktoiralis\bin\Debug\net8.0\20250923-faktoiralis.exe
+C:\Users\tomi\Documents\EKKE\magprog\20250923-faktoiralis\20250923-faktoiralis\bin\Debug\net8.0\20250923-faktoiralis.deps.json
+C:\Users\tomi\Documents\EKKE\magprog\20250923-faktoiralis\20250923-faktoiralis\bin\Debug\net8.0\20250923-faktoiralis.runtimeconfig.json
+C:\Users\tomi\Documents\EKKE\magprog\20250923-faktoiralis\20250923-faktoiralis\bin\Debug\net8.0\20250923-faktoiralis.dll
+C:\Users\tomi\Documents\EKKE\magprog\20250923-faktoiralis\20250923-faktoiralis\bin\Debug\net8.0\20250923-faktoiralis.pdb
+C:\Users\tomi\Documents\EKKE\magprog\20250923-faktoiralis\20250923-faktoiralis\obj\Debug\net8.0\20250923-faktoiralis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomi\Documents\EKKE\magprog\20250923-faktoiralis\20250923-faktoiralis\obj\Debug\net8.0\20250923-faktoiralis.AssemblyInfoInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog\20250923-faktoiralis\20250923-faktoiralis\obj\Debug\net8.0\20250923-faktoiralis.AssemblyInfo.cs
+C:\Users\tomi\Documents\EKKE\magprog\20250923-faktoiralis\20250923-faktoiralis\obj\Debug\net8.0\20250923-faktoiralis.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog\20250923-faktoiralis\20250923-faktoiralis\obj\Debug\net8.0\20250923-faktoiralis.dll
+C:\Users\tomi\Documents\EKKE\magprog\20250923-faktoiralis\20250923-faktoiralis\obj\Debug\net8.0\refint\20250923-faktoiralis.dll
+C:\Users\tomi\Documents\EKKE\magprog\20250923-faktoiralis\20250923-faktoiralis\obj\Debug\net8.0\20250923-faktoiralis.pdb
+C:\Users\tomi\Documents\EKKE\magprog\20250923-faktoiralis\20250923-faktoiralis\obj\Debug\net8.0\20250923-faktoiralis.genruntimeconfig.cache
+C:\Users\tomi\Documents\EKKE\magprog\20250923-faktoiralis\20250923-faktoiralis\obj\Debug\net8.0\ref\20250923-faktoiralis.dll
