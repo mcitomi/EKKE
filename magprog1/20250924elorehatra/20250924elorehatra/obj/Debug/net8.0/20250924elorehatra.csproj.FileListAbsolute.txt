@@ -1,0 +1,15 @@
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\bin\Debug\net8.0\20250924elorehatra.exe
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\bin\Debug\net8.0\20250924elorehatra.deps.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\bin\Debug\net8.0\20250924elorehatra.runtimeconfig.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\bin\Debug\net8.0\20250924elorehatra.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\bin\Debug\net8.0\20250924elorehatra.pdb
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\obj\Debug\net8.0\20250924elorehatra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\obj\Debug\net8.0\20250924elorehatra.AssemblyInfoInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\obj\Debug\net8.0\20250924elorehatra.AssemblyInfo.cs
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\obj\Debug\net8.0\20250924elorehatra.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\obj\Debug\net8.0\20250924elorehatra.sourcelink.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\obj\Debug\net8.0\20250924elorehatra.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\obj\Debug\net8.0\refint\20250924elorehatra.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\obj\Debug\net8.0\20250924elorehatra.pdb
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\obj\Debug\net8.0\20250924elorehatra.genruntimeconfig.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250924elorehatra\20250924elorehatra\obj\Debug\net8.0\ref\20250924elorehatra.dll

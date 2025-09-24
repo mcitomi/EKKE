@@ -1,0 +1,15 @@
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\bin\Debug\net8.0\20250924fogadasok.exe
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\bin\Debug\net8.0\20250924fogadasok.deps.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\bin\Debug\net8.0\20250924fogadasok.runtimeconfig.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\bin\Debug\net8.0\20250924fogadasok.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\bin\Debug\net8.0\20250924fogadasok.pdb
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\obj\Debug\net8.0\20250924fogadasok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\obj\Debug\net8.0\20250924fogadasok.AssemblyInfoInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\obj\Debug\net8.0\20250924fogadasok.AssemblyInfo.cs
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\obj\Debug\net8.0\20250924fogadasok.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\obj\Debug\net8.0\20250924fogadasok.sourcelink.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\obj\Debug\net8.0\20250924fogadasok.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\obj\Debug\net8.0\refint\20250924fogadasok.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\obj\Debug\net8.0\20250924fogadasok.pdb
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\obj\Debug\net8.0\20250924fogadasok.genruntimeconfig.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250924fogadasok\20250924fogadasok\obj\Debug\net8.0\ref\20250924fogadasok.dll

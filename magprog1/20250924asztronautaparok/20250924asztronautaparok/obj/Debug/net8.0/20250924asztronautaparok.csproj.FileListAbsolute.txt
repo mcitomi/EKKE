@@ -1,0 +1,15 @@
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\bin\Debug\net8.0\20250924asztronautaparok.exe
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\bin\Debug\net8.0\20250924asztronautaparok.deps.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\bin\Debug\net8.0\20250924asztronautaparok.runtimeconfig.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\bin\Debug\net8.0\20250924asztronautaparok.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\bin\Debug\net8.0\20250924asztronautaparok.pdb
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\obj\Debug\net8.0\20250924asztronautaparok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\obj\Debug\net8.0\20250924asztronautaparok.AssemblyInfoInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\obj\Debug\net8.0\20250924asztronautaparok.AssemblyInfo.cs
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\obj\Debug\net8.0\20250924asztronautaparok.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\obj\Debug\net8.0\20250924asztronautaparok.sourcelink.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\obj\Debug\net8.0\20250924asztronautaparok.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\obj\Debug\net8.0\refint\20250924asztronautaparok.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\obj\Debug\net8.0\20250924asztronautaparok.pdb
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\obj\Debug\net8.0\20250924asztronautaparok.genruntimeconfig.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250924asztronautaparok\20250924asztronautaparok\obj\Debug\net8.0\ref\20250924asztronautaparok.dll
