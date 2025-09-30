@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomi\\Documents\\EKKE\\magprog1\\20250930fenyok\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2342D76-5441-4CD5-B6C6-127C75D54AD0}|20250930fenyok\\20250930fenyok.csproj|c:\\users\\tomi\\documents\\ekke\\magprog1\\20250930fenyok\\20250930fenyok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2342D76-5441-4CD5-B6C6-127C75D54AD0}|20250930fenyok\\20250930fenyok.csproj|solutionrelative:20250930fenyok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tomi\\Documents\\EKKE\\magprog1\\20250930fenyok\\20250930fenyok\\Program.cs",
+              "RelativeDocumentMoniker": "20250930fenyok\\Program.cs",
+              "ToolTip": "C:\\Users\\tomi\\Documents\\EKKE\\magprog1\\20250930fenyok\\20250930fenyok\\Program.cs",
+              "RelativeToolTip": "20250930fenyok\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T12:21:22.401Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

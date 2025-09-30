@@ -1,0 +1,15 @@
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\bin\Debug\net8.0\20250930peldazh.exe
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\bin\Debug\net8.0\20250930peldazh.deps.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\bin\Debug\net8.0\20250930peldazh.runtimeconfig.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\bin\Debug\net8.0\20250930peldazh.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\bin\Debug\net8.0\20250930peldazh.pdb
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\obj\Debug\net8.0\20250930peldazh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\obj\Debug\net8.0\20250930peldazh.AssemblyInfoInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\obj\Debug\net8.0\20250930peldazh.AssemblyInfo.cs
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\obj\Debug\net8.0\20250930peldazh.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\obj\Debug\net8.0\20250930peldazh.sourcelink.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\obj\Debug\net8.0\20250930peldazh.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\obj\Debug\net8.0\refint\20250930peldazh.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\obj\Debug\net8.0\20250930peldazh.pdb
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\obj\Debug\net8.0\20250930peldazh.genruntimeconfig.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250930peldazh\20250930peldazh\obj\Debug\net8.0\ref\20250930peldazh.dll

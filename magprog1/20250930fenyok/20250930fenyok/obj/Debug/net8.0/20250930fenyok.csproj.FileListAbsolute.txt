@@ -1,0 +1,15 @@
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\bin\Debug\net8.0\20250930fenyok.exe
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\bin\Debug\net8.0\20250930fenyok.deps.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\bin\Debug\net8.0\20250930fenyok.runtimeconfig.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\bin\Debug\net8.0\20250930fenyok.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\bin\Debug\net8.0\20250930fenyok.pdb
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\obj\Debug\net8.0\20250930fenyok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\obj\Debug\net8.0\20250930fenyok.AssemblyInfoInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\obj\Debug\net8.0\20250930fenyok.AssemblyInfo.cs
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\obj\Debug\net8.0\20250930fenyok.csproj.CoreCompileInputs.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\obj\Debug\net8.0\20250930fenyok.sourcelink.json
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\obj\Debug\net8.0\20250930fenyok.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\obj\Debug\net8.0\refint\20250930fenyok.dll
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\obj\Debug\net8.0\20250930fenyok.pdb
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\obj\Debug\net8.0\20250930fenyok.genruntimeconfig.cache
+C:\Users\tomi\Documents\EKKE\magprog1\20250930fenyok\20250930fenyok\obj\Debug\net8.0\ref\20250930fenyok.dll
