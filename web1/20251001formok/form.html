@@ -1,0 +1,45 @@
+<!-- Dokumentum létrehozáshoz egy üres html fájlba írj !-et majd nyomj entert, a vscode létrehozza az olda alapjait -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+        crossorigin="anonymous"
+    >
+    <!-- Ha saját css-t is használunk akkor először a bootstrap legyen beimportálva utána a sajátunk, mert felülírjná a saját css-t -->
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post" action="https://httpbin.org/post"> <!-- a method lehet get vagy post, a get a url-ben küldi el az adatokat, a post a bodyban, az action pedig az az elérési link ahova küldi az adatokat -->
+        <label>Név:</label><br>
+        <input type="text" name="nev" required> <br>   <!-- a required kötelezővé teszi a kitöltést -->
+
+        <label>Jelszó:</label><br>
+        <input type="password" name="jelszo" required><br>
+
+        <!-- radio inputnál ha nem akarod hogy egyszerre az összeset ki tudják jelölni akkor adj neki 'name' taget azonos névvel, így ezekből egyszerre csak egy pipálható be -->
+        <label>Neme:</label>
+        <input type="radio" name="nem" value="ferfi">Férfi
+        <input type="radio" name="nem" value="no">Nő<br>
+
+        <input type="checkbox" name="feltetelek" value="igen">Elfogadom a feltételeket<br>
+
+        <!-- Csúszka bement -->
+        <input type="range" min="0" max="10" name="csuszka"><br>
+
+        <!-- Ezzel küldehtő el a form értéke a szervernek (post kérés) -->
+        <input type="submit" value="Regisztráció" class="btn btn-danger"><br>
+
+        <!-- <select>
+            <option>Férfi</option>
+            <option>Nő</option>
+        </select> -->
+    </form>
+</body>
+
+</html>
