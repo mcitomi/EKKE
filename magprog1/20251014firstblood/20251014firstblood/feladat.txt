@@ -1,0 +1,25 @@
+HF: A kész feladatot emilbe küldeni. kis.gergely.sandor@uni-eszterhazy.hu
+
+Gyorsaság
+Akinek nagyobb a tulajdonsága, az támad először, a harcosok ezután felváltva ütnek.
+
+Erő
+Dobni kell egy kockával (6 oldalú), ha a dobás értéke kisebb vagy egyenlő, mint az erő, akkor
+sikerülhet bevinni a találatot. Erre a tulajdonságra kötelező legalább 1 pontot elkölteni.
+
+Ügyesség
+Ha az ellenfél megdobta az erőpróbát, akkor dobni kell egy kockával (6 oldalú) és ha az érték
+kisebb vagy egyenlő, mint az ügyesség, akkor sikerült a tamádást elkerülni. Amennyiben nem
+sikerül a támadást elkerülni, az a harcos nyer, aki bevitte az első találatot.
+
+Feladat
+Összesen 6 pont osztható el a tulajdonságok között. Milyen arányban osztanád el a pontokat,
+hogy a harcosod a legnagyobb eséllyel induljon egy viadalon (legalább 1000 küzdelem és
+mindenki harcol mindenkivel), ahol az ellenfelek tulajdonságait véletlennel sorsolták?
+
+A harcosok tulajdonságait tároljuk egy osztály mezőiben, majd ezekből a harcos példányokat tároljuk vektorba.
+A program indításakor kérdezze meg a felhasználót, hogy file-ből akarja-e beolvasni a harcosokat vagy futás kezdben generálódjanak.
+Értelemszerűen ebből az következik, hogy a programnak képesnek kell lennie a generált harcosok elmentésére is.
+
+Tippek:
+A mentés fájl első sorába írni hogy hány soros.
