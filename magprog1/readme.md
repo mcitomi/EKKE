@@ -1,7 +1,10 @@
 ## Debug:
 `ctrl + f10`
 
+## Linkek:
+
 https://tinyurl.com/troll-downloads
+http://tinyurl.com/2025MagProgKGS
 
 ## Kommentek
 
