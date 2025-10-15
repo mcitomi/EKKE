@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tomi\\Documents\\EKKE\\magprog1\\20251015stringek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F21088C7-EFE3-4AB9-B2B6-7A9B89A7F978}|20251015stringek\\20251015stringek.csproj|c:\\users\\tomi\\documents\\ekke\\magprog1\\20251015stringek\\20251015stringek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F21088C7-EFE3-4AB9-B2B6-7A9B89A7F978}|20251015stringek\\20251015stringek.csproj|solutionrelative:20251015stringek\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tomi\\Documents\\EKKE\\magprog1\\20251015stringek\\20251015stringek\\Program.cs",
+              "RelativeDocumentMoniker": "20251015stringek\\Program.cs",
+              "ToolTip": "C:\\Users\\tomi\\Documents\\EKKE\\magprog1\\20251015stringek\\20251015stringek\\Program.cs",
+              "RelativeToolTip": "20251015stringek\\Program.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwFgAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T16:13:07.596Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
