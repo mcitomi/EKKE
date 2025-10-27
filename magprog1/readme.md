@@ -26,3 +26,23 @@ http://tinyurl.com/2025MagProgKGS
 nyeregpont: a mátrix egy eleme ami a sorban a legnagyobb de az oszlopban a legkisebb
 1. féléves zh-ban nem lehet mátrix
 átló, főátló, sor, oszlop, 
+
+# C# Linuxon
+
+### Új konzol projekt létrehozásához használjuk a következőt:
+
+```sh
+dotnet new console --use-program-main
+```
+
+### Build:
+
+```sh
+dotnet build
+```
+
+### Futtatás:
+
+```sh
+dotnet run 
+```
