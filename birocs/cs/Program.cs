@@ -8,9 +8,11 @@ class Program
         string bin = "10111";
         int help = 1;
 
-        for (int i = bin.Length - 1; i >= 0; i--) {
-            dec += (bin[i]-'0') * help;
-            help*=2;
+        for (int i = bin.Length - 1; i >= 0; i--)
+        {
+            // dec += (bin[i]) * help; // 1511-et ír (nemjo)
+            dec += (bin[i] - '0') * help;
+            help *= 2;
         }
         System.Console.WriteLine(dec);
     }
