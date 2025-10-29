@@ -23,6 +23,7 @@ class Vizsga
 }
 class Program
 {
+    static string CURRENT_DATE = "2024.12.04 10:00";
     static int F2_Telitettseg(Vizsga vizsga)
     {
         return (int)Math.Floor(((double)vizsga.Jelentkezettek / vizsga.MaxLetszam) * 100);
@@ -30,6 +31,10 @@ class Program
     static bool F5_Vizsgak(Vizsga vizsga, string targy, bool isIrasbeli, string tagozat)
     {
         return vizsga.Nev == targy && vizsga.Irasbeli == isIrasbeli && tagozat.ToUpper()[0] == vizsga.Kod[0];
+    }
+    static List<string> F7_Targyak(List<Vizsga> vizsgak)
+    {
+        return vizsgak.Select(v => v.Nev).Distinct().OrderByDescending(nev => nev).ToList();
     }
     static void Main(string[] args)
     {
@@ -47,22 +52,22 @@ class Program
         }
 
         #region 3.Feladat
-        List<Vizsga> mainapElottiTelitettVizsgak = vizsgak.Where(vizsga => vizsga.Datum > DateTime.Parse("2024.12.04 10:00") && vizsga.Datum.Month == 12 && F2_Telitettseg(vizsga) > 70).ToList();
+        List<Vizsga> mainapElottiTelitettVizsgak = vizsgak.Where(vizsga => vizsga.Datum > DateTime.Parse(CURRENT_DATE) && vizsga.Datum.Month == DateTime.Parse(CURRENT_DATE).Month && F2_Telitettseg(vizsga) > 70).ToList();
 
         double atlagosTelitettseg = mainapElottiTelitettVizsgak.Average(v => F2_Telitettseg(v));
 
-        Console.WriteLine("3. feladat\nDecember elejei 70% fölötti vizsgák:");
+        Console.WriteLine($"\n3. feladat\n{DateTime.Parse(CURRENT_DATE).ToString("MMMM")} elejei 70% fölötti vizsgák:");
 
         foreach (Vizsga vizsga in mainapElottiTelitettVizsgak)
         {
             Console.WriteLine($"{vizsga.Datum.ToString("MMMM d. HH:mm")} - {vizsga.Kod} - {vizsga.Nev} ({(vizsga.Irasbeli ? "írásbeli" : "szóbeli")}) - {vizsga.Jelentkezettek}/{vizsga.MaxLetszam} ({F2_Telitettseg(vizsga)}%)");
         }
-        Console.WriteLine($"Ezen vizsgák átlagos telítettsége: {atlagosTelitettseg:0}%.");
+        Console.WriteLine($"Ezen vizsgák átlagos telítettsége: {atlagosTelitettseg:0.0}%.");
         #endregion
 
         #region 4.Feladat
 
-        Console.WriteLine("4. feladat");
+        Console.WriteLine("\n4. feladat");
 
         Vizsga vizsgaMP1 = vizsgak.Where(v => v.Nev == "Magasszintű programozási nyelvek I").Where(v => v.Jelentkezettek == v.MaxLetszam).OrderByDescending(v => v.Datum).FirstOrDefault();
         Vizsga vizsgaGrafika = vizsgak.Where(v => v.Nev == "Bevezetés a számítógépi grafikába").Where(v => v.Jelentkezettek == v.MaxLetszam).OrderByDescending(v => v.Datum).FirstOrDefault();
@@ -87,13 +92,13 @@ class Program
 
         #region 5.Feladat
 
-        Console.WriteLine(F5_Vizsgak(vizsgak[3], "Szoftverjog", true, "levelező"));
+        // Console.WriteLine(F5_Vizsgak(vizsgak[3], "Szoftverjog", true, "levelező"));
 
         #endregion
 
         #region 6.Feladat
 
-        Console.Write("6. feladat\nTantárgy: ");
+        Console.Write("\n6. feladat\nTantárgy: ");
         string targy = Console.ReadLine();
 
         Console.Write("Vizsga típusa: ");
@@ -102,8 +107,27 @@ class Program
         Console.Write("Tagozat: ");
         string tagozat = Console.ReadLine();
 
+        // Szoftverjog
+        // írásbeli
+        // levelező
+        List<Vizsga> javasoltVizsgak = vizsgak.Where(v => F5_Vizsgak(v, targy, isIrasbeli, tagozat) && v.Datum > DateTime.Parse(CURRENT_DATE) && v.MaxLetszam > v.Jelentkezettek).ToList();
 
-        List<Vizsga> javasoltVizsgak = vizsgak.Where(v => F5_Vizsgak(v, targy, isIrasbeli, tagozat));
+        Console.WriteLine("\nAz Ön számára javasolt vizsgák:");
+        foreach (Vizsga v in javasoltVizsgak)
+        {
+            Console.WriteLine($"{v.Datum.ToString("yyyy. MM. d. HH:mm")} - {v.Jelentkezettek}/{v.MaxLetszam} ({v.Terem})");
+        }
+
+        #endregion
+
+        #region 8.Feladat
+        System.Console.WriteLine("\n8.feladat");
+        foreach (string tantargyNev in F7_Targyak(vizsgak))
+        {
+            Vizsga maxLetszamuVizsga = vizsgak.Where(v => v.Nev == tantargyNev && v.MaxLetszam >= 10).ToList().OrderByDescending(v => v.MaxLetszam).FirstOrDefault();
+
+            Console.WriteLine($"{tantargyNev}: {maxLetszamuVizsga.Datum.ToString("yyyy.MM.dd H:mm")}, {maxLetszamuVizsga.MaxLetszam} fő, {maxLetszamuVizsga.Terem}{(vizsgak.Count(v => v.Nev == tantargyNev) < 3 ? " (!!!)" : "")}");
+        }
         #endregion
     }
 }
