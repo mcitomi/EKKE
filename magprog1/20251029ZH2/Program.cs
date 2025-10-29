@@ -27,6 +27,10 @@ class Program
     {
         return (int)Math.Floor(((double)vizsga.Jelentkezettek / vizsga.MaxLetszam) * 100);
     }
+    static bool F5_Vizsgak(Vizsga vizsga, string targy, bool isIrasbeli, string tagozat)
+    {
+        return vizsga.Nev == targy && vizsga.Irasbeli == isIrasbeli && tagozat.ToUpper()[0] == vizsga.Kod[0];
+    }
     static void Main(string[] args)
     {
         List<Vizsga> vizsgak = new List<Vizsga>();
@@ -43,7 +47,7 @@ class Program
         }
 
         #region 3.Feladat
-        List<Vizsga> mainapElottiTelitettVizsgak = vizsgak.Where(vizsga => vizsga.Datum < DateTime.Parse("2024.12.04 10:00") && vizsga.Datum.Month == 12 && F2_Telitettseg(vizsga) > 70).ToList();
+        List<Vizsga> mainapElottiTelitettVizsgak = vizsgak.Where(vizsga => vizsga.Datum > DateTime.Parse("2024.12.04 10:00") && vizsga.Datum.Month == 12 && F2_Telitettseg(vizsga) > 70).ToList();
 
         double atlagosTelitettseg = mainapElottiTelitettVizsgak.Average(v => F2_Telitettseg(v));
 
@@ -53,26 +57,53 @@ class Program
         {
             Console.WriteLine($"{vizsga.Datum.ToString("MMMM d. HH:mm")} - {vizsga.Kod} - {vizsga.Nev} ({(vizsga.Irasbeli ? "írásbeli" : "szóbeli")}) - {vizsga.Jelentkezettek}/{vizsga.MaxLetszam} ({F2_Telitettseg(vizsga)}%)");
         }
+        Console.WriteLine($"Ezen vizsgák átlagos telítettsége: {atlagosTelitettseg:0}%.");
         #endregion
 
         #region 4.Feladat
 
         Console.WriteLine("4. feladat");
-        
-        Vizsga vizsgakMP1 = vizsgak.Where(v => v.Nev == "Magasszintű programozási nyelvek 1").Where(v => v.Jelentkezettek == v.MaxLetszam).OrderByDescending(v => v.Datum).First();
-        Vizsga vizsgakGrafika = vizsgak.Where(v => v.Nev == "Bevezetés a számítógépi grafikába").Where(v => v.Jelentkezettek == v.MaxLetszam).OrderByDescending(v => v.Datum).First();
 
-        if(vizsgakGrafika.MaxLetszam > vizsgakMP1.MaxLetszam)
+        Vizsga vizsgaMP1 = vizsgak.Where(v => v.Nev == "Magasszintű programozási nyelvek I").Where(v => v.Jelentkezettek == v.MaxLetszam).OrderByDescending(v => v.Datum).FirstOrDefault();
+        Vizsga vizsgaGrafika = vizsgak.Where(v => v.Nev == "Bevezetés a számítógépi grafikába").Where(v => v.Jelentkezettek == v.MaxLetszam).OrderByDescending(v => v.Datum).FirstOrDefault();
+
+        Console.WriteLine($"{vizsgaMP1.Datum.ToString("MMMM d. HH:mm")} - {vizsgaMP1.Nev} - {vizsgaMP1.Jelentkezettek} fő");
+        Console.WriteLine($"{vizsgaGrafika.Datum.ToString("MMMM d. HH:mm")} - {vizsgaGrafika.Nev} - {vizsgaGrafika.Jelentkezettek} fő");
+
+        if (vizsgaGrafika.MaxLetszam > vizsgaMP1.MaxLetszam)
         {
             Console.WriteLine("Bevezetés a számítógépi grafikába vizsgán többen vannak.");
-        } else if(vizsgakGrafika.MaxLetszam < vizsgakMP1.MaxLetszam)
+        }
+        else if (vizsgaGrafika.MaxLetszam < vizsgaMP1.MaxLetszam)
         {
             Console.WriteLine("Magasszintű programozási nyelvek 1 vizsgán többen vannak.");
-        } else
+        }
+        else
         {
             System.Console.WriteLine("Mind két vizsgán ugyan annyian vannak.");
         }
 
+        #endregion
+
+        #region 5.Feladat
+
+        Console.WriteLine(F5_Vizsgak(vizsgak[3], "Szoftverjog", true, "levelező"));
+
+        #endregion
+
+        #region 6.Feladat
+
+        Console.Write("6. feladat\nTantárgy: ");
+        string targy = Console.ReadLine();
+
+        Console.Write("Vizsga típusa: ");
+        bool isIrasbeli = Console.ReadLine().ToLower() == "írasbeli";
+
+        Console.Write("Tagozat: ");
+        string tagozat = Console.ReadLine();
+
+
+        List<Vizsga> javasoltVizsgak = vizsgak.Where(v => F5_Vizsgak(v, targy, isIrasbeli, tagozat));
         #endregion
     }
 }
