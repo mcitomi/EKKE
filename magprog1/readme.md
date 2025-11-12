@@ -20,6 +20,7 @@ Stringek - szerdan okt 29 (elmarad az ora) zh-s hazi - feldadatok
 
 https://tinyurl.com/troll-downloads
 http://tinyurl.com/2025MagProgKGS
+http://aries.ektf.hu/~ksanyi/mprog1/gyak2025.zip
 
 ## Kommentek
 
