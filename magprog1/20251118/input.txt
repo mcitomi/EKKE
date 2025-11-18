@@ -1,0 +1,12 @@
+CH001|Arvandor|12|Mage|180|320|Good|Elder Forest|150.5
+CH002|Rogar Ironfist|25|Warrior|450|50|Neutral|Stonekeep|980
+CH003|Selira Dawnwhisper|30|Cleric|300|400|Good|Sunreach|1200
+CH004|Vorgrim the Shadow|18|Rogue|210|100|Evil|Shadowfen|620
+CH005|Lirien Moonstep|abc|Ranger|160|200|Good|Moonvale|400
+CH006|Thalgrim|55|Knight|500|0|Neutral|Northwatch|750
+CH007|Eryndor|44|Mage|350|-20|Good|Crystal Bay|500
+CH008|Kaelis Fireborn|60|Mage|0|800|Evil|Ashen Peaks|200
+CH009|Boral Stonehide|77|Warrior|600|100|Neutral||300
+CH010|Seraphine|15|Cleric|220|250|Good|Highspire|50
+CH011|Myrik|101|Rogue|250|200|Evil|Bloodmoor|800
+CH012|Fenwick Quill|40|Mage|280|350|Neutral|Stormhold|999999
