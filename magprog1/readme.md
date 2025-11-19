@@ -1,18 +1,6 @@
-# Hazifeladat: fenykep feladat - kotelezo
-Bemenet Kimenet
-6 2
-2 4 	3 9
-1 4
-2 7
-7 13
-5 10
-3 9
-
-A ket szam koze kell esnie 
-
-
-Stringek - szerdan okt 29 (elmarad az ora) zh-s hazi - feldadatok 
-
+# Hazifeladat: valasztasok feladatlap - gyak2025.zip-ben
+HFHHFHFHFHFHFHHFHHFHFHHFHFHFHHFHFHFHHFH
+(1 óra hosszás elvileg waa)
 ## Debug:
 `ctrl + f10`
 
@@ -24,9 +12,10 @@ http://aries.ektf.hu/~ksanyi/mprog1/gyak2025.zip
 
 ## Kommentek
 
-nyeregpont: a mátrix egy eleme ami a sorban a legnagyobb de az oszlopban a legkisebb
-1. féléves zh-ban nem lehet mátrix
-átló, főátló, sor, oszlop, 
+- nyeregpont: a mátrix egy eleme ami a sorban a legnagyobb de az oszlopban a legkisebb
+- Az 1. féléves zh-ban nem lehet mátrix
+átló, főátló, sor, oszlop!!
+- A 2. zh-ban lesznek majd Dictionary (elvileg semmi se tiltja), sajat max kivalsztas, orderby
 
 # C# Linuxon
 
