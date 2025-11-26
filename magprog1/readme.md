@@ -1,6 +1,4 @@
-# Hazifeladat: valasztasok feladatlap - gyak2025.zip-ben
-HFHHFHFHFHFHFHHFHHFHFHHFHFHFHHFHFHFHHFH
-(1 óra hosszás elvileg waa)
+# =)
 ## Debug:
 `ctrl + f10`
 
@@ -16,6 +14,9 @@ http://aries.ektf.hu/~ksanyi/mprog1/gyak2025.zip
 - Az 1. féléves zh-ban nem lehet mátrix
 átló, főátló, sor, oszlop!!
 - A 2. zh-ban lesznek majd Dictionary (elvileg semmi se tiltja), sajat max kivalsztas, orderby
+
+## random
+https://ide.algopro.hu/
 
 # C# Linuxon
 
