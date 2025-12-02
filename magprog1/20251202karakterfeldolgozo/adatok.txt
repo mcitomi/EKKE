@@ -1,0 +1,82 @@
+CH001|Arvandor|12|Mage|180|320|Good|Elder Forest|150.5
+CH002|Rogar Ironfist|25|Warrior|450|50|Neutral|Stonekeep|980
+CH003|Selira Dawnwhisper|30|Cleric|300|400|Good|Sunreach|1200
+CH004|Vorgrim the Shadow|18|Rogue|210|100|Evil|Shadowfen|620
+CH005|Lirien Moonstep|abc|Ranger|160|200|Good|Moonvale|400
+CH006|Thalgrim|55|Knight|500|0|Neutral|Northwatch|750
+CH007|Eryndor|44|Mage|350|-20|Good|Crystal Bay|500
+CH008|Kaelis Fireborn|60|Mage|0|800|Evil|Ashen Peaks|200
+CH009|Boral Stonehide|77|Warrior|600|100|Neutral||300
+CH010|Seraphine|15|Cleric|220|250|Good|Highspire|50
+CH011|Myrik|101|Rogue|250|200|Evil|Bloodmoor|800
+CH012|Fenwick Quill|40|Mage|280|350|Neutral|Stormhold|999999
+CH013|Valoria Swiftwind|22|Ranger|240|180|Good|Greenhollow|520
+CH014|Drogath Skullbreaker|38|Warrior|520|60|Evil|Ironcliff|1300
+CH015|Merelis Starborn|27|Mage|200|450|Good|Silverpeak|870
+CH016|Kaldrun Frosthammer|41|Knight|510|120|Neutral|Frostgard|940
+CH017|Serelis Emberglow|19|Cleric|230|310|Good|Sunreach|330
+CH018|Vorash Blacktide|33|Rogue|270|160|Evil|Darkwater|710
+CH019|Eldarra Windchant|29|Mage|210|480|Neutral|Skyharbor|600
+CH020|Bromgar Boulderheart|35|Warrior|560|80|Good|Stonekeep|1400
+CH021|Teralin Moonbrook|16|Ranger|190|220|Good|Moonvale|260
+CH022|Grishnak Bloodrazor|44|Rogue|260|200|Evil|Bloodmoor|900
+CH023|Arden Felspire|50|Mage|300|600|Neutral|Stormhold|1500
+CH024|Halric Dawnshield|23|Knight|420|150|Good|Highspire|400
+CH025|Sylvena Leafdance|21|Ranger|200|240|Good|Elder Forest|370
+CH026|Gorvak Ironsoul|39|Warrior|580|70|Neutral|Dragonclaw|1250
+CH027|Lunaris Whitesong|28|Cleric|270|420|Good|Silverveil|480
+CH028|Thornak Deepcrusher|46|Warrior|610|50|Evil|Stonekeep|1600
+CH029|Riselia Frostpetal|24|Mage|210|390|Good|Winterhold|350
+CH030|Velgrim Shadowhaunt|32|Rogue|250|140|Evil|Shadowfen|780
+CH031|Mirelia Goldwhisper|30|Cleric|260|410|Neutral|Sunreach|420
+CH032|Darron Blackforge|37|Warrior|540|100|Good|Ironcliff|1100
+CH033|Eliana Starweaver|20|Mage|200|380|Good|Crystal Bay|300
+CH034|Ragnar Stormbreaker|48|Knight|580|130|Neutral|Northwatch|1450
+CH035|Selvion Moonglade|26|Ranger|220|260|Good|Moonvale|390
+CH036|Korvash Nightfang|31|Rogue|240|150|Evil|Shadowfen|640
+CH037|Alyndra Purelight|33|Cleric|280|430|Good|Highspire|500
+CH038|Tharok Stonespear|42|Warrior|590|90|Neutral|Dragonclaw|1200
+CH039|Meridian Silverflare|29|Mage|220|450|Good|Ashen Peaks|650
+CH040|Beral Thunderhoof|40|Knight|530|110|Neutral|Frostgard|890
+CH041|Elvarin Duskglide|34|Rogue|260|180|Evil|Darkwater|720
+CH042|Seraphos Lightcrest|31|Cleric|240|380|Good|Sunreach|350
+CH043|Drekken Ironjaw|47|Warrior|620|60|Neutral|Stonekeep|1500
+CH044|Ysolde Dreampetal|25|Mage|240|420|Good|Silverveil|410
+CH045|Fendrak Emberhide|38|Knight|520|100|Neutral|Ashen Peaks|970
+CH046|Lorandir Wavesong|27|Ranger|230|270|Good|Crystal Bay|440
+CH047|Verek the Cruel|44|Rogue|270|160|Evil|Bloodmoor|880
+CH048|Therali Sunstrider|36|Cleric|290|390|Good|Highspire|520
+CH049|Gorlin Flamefury|39|Mage|250|460|Neutral|Stormhold|890
+CH050|Rendur Stoneguard|45|Knight|560|140|Good|Northwatch|1300
+CH051|Selkar Nightbound|28|Rogue|230|170|Evil|Shadowfen|630
+CH052|Lirielle Frostwhisper|23|Mage|210|420|Good|Winterhold|360
+CH053|Dorthak Sharpclaw|40|Warrior|600|80|Neutral|Ironcliff|1400
+CH054|Maylina Sunbloom|30|Cleric|250|400|Good|Sunreach|480
+CH055|Verath Emberlash|35|Ranger|210|260|Neutral|Ashen Peaks|520
+CH056|Graldor Emberhammer|48|Warrior|620|100|Good|Dragonclaw|1700
+CH057|Arwyn Silverbrook|26|Cleric|230|410|Good|Highspire|410
+CH058|Kelgrim Thundershout|41|Warrior|580|90|Neutral|Northwatch|1220
+CH059|Nymeria Shadestep|34|Rogue|240|180|Evil|Darkwater|700
+CH060|Ferellis Glimmersong|29|Mage|220|460|Good|Crystal Bay|540
+CH061|Hartwig Broadshield|37|Knight|520|130|Neutral|Stonekeep|1150
+CH062|Erylia Moonstrike|22|Ranger|200|250|Good|Moonvale|330
+CH063|Zorvak the Fell|46|Rogue|260|160|Evil|Shadowfen|820
+CH064|Callindra Brightleaf|31|Cleric|240|380|Good|Elder Forest|460
+CH065|Vornak Steelmaw|43|Warrior|580|70|Neutral|Ironcliff|1350
+CH066|Silren Voidflare|38|Mage|240|490|Evil|Ashen Peaks|920
+CH067|Eldran Oakheart|33|Ranger|220|260|Good|Elder Forest|420
+CH068|Torgrim Blackshield|51|Knight|600|100|Neutral|Frostgard|1500
+CH069|Mirek Duskwalker|27|Rogue|230|170|Evil|Darkwater|590
+CH070|Ylsera Dawnsong|34|Cleric|260|420|Good|Highspire|480
+CH071|Farlun Stormseeker|45|Mage|260|510|Neutral|Stormhold|990
+CH072|Ragnar Broadblade|49|Warrior|640|90|Good|Dragonclaw|1750
+CH073|Eilara Mistbloom|28|Ranger|210|250|Good|Silverveil|380
+CH074|Varosh Bonegrin|36|Rogue|250|160|Evil|Bloodmoor|700
+CH075|Serelline Flameheart|32|Mage|230|470|Good|Ashen Peaks|650
+CH076|Hadrin Frostmane|40|Knight|550|120|Neutral|Northwatch|1180
+CH077|Keryn Whisperbrook|25|Cleric|240|400|Good|Crystal Bay|350
+CH078|Brolgar Stoneaxe|42|Warrior|610|70|Neutral|Stonekeep|1300
+CH079|Talindra Moondance|29|Ranger|220|270|Good|Moonvale|390
+CH080|Vorgrim Bitterblade|34|Rogue|240|150|Evil|Shadowfen|620
+CH081|Zelaria Lightwing|31|Mage|240|450|Good|Highspire|520
+CH082|Drakkor Embermaw|38|Knight|560|110|Neutral|Ashen Peaks|1000
