@@ -82,9 +82,15 @@ namespace kiraly_feladatok
         // (1) Absurd dátum számítása
         private DateTime AbsurdDatumSzamitas()
         {
-            DateTime alap = new DateTime(DetRandom.Next(GetDetSeed("1800 2001"), 1800, 2001));
+            DateTime alap = new DateTime(DetRandom.Next(GetDetSeed("1800 2001"), 1800, 2001),1,1);
             alap.AddDays(this.Szint * 17 + this.Eletero * 3 - this.Mana * 2 + ((int)this.Megiteles * 50));
-            alap.AddMonths(this.Eletero * this.Mana * ((int)this.Karakter_osztaly * 1));
+
+            int Months = this.Eletero * this.Mana * (int)this.Karakter_osztaly * 1;
+            if(Months > 50)
+            {
+                Months = 50;
+            }
+            alap.AddMonths(Months);
             return alap;
         }
 
@@ -167,7 +173,6 @@ namespace kiraly_feladatok
 
             // Régiónkénti átlagos szint
             //
-
             (string Regio, double Atlag)[] regio_atlag_szint = regio_atlag_szint = karakterDict.Values
                 .GroupBy(c => c.Regio)
                 .Select(g => (Regio: g.Key, Atlag: g.Average(c => c.Szint)))
@@ -180,10 +185,11 @@ namespace kiraly_feladatok
 
             // Osztályonként a legtöbb arannyal rendelkező karakter
             //
-
-            (string Osztaly, (string Nev, double Arany) Gazdag)[] legtobb_arany_osztalyonkent = karakterDict.Values
+            (Karakter_osztaly Osztaly, (string Nev, double Arany) Gazdag)[] legtobb_arany_osztalyonkent = karakterDict.Values
                 .GroupBy(c => c.Karakter_osztaly)
-                .Select(g => (Osztaly: g.Key, (Nev: g)))
+                .Select(g =>
+                    (Osztaly: g.Key, Gazdag: g.Select(c => (Nev: c.Nev, Arany: c.Arany))
+                        .OrderByDescending(x => x.Arany).FirstOrDefault())).ToArray();
 
             Console.WriteLine("Osztályonként a leggazdagabb karakter:");
             foreach (var p in legtobb_arany_osztalyonkent)
@@ -192,6 +198,9 @@ namespace kiraly_feladatok
 
             // Morális megítélés szerinti darabszám
             //
+            (Megiteles Megiteles, int Count)[] moralStats = karakterDict.Values
+                .GroupBy(c => c.Megiteles)
+                .Select(g => (Megiteles: g.Key, Count: g.Count())).ToArray();
 
             Console.WriteLine("Morális kategóriák eloszlása:");
             foreach (var m in moralStats)
@@ -200,6 +209,10 @@ namespace kiraly_feladatok
 
             // TOP 5 legerősebb karakter (egyedi power score alapján)
             //
+            Karakter[] top5 = karakterDict.Values
+                .OrderByDescending(c => c.Eletero * 1.5 + c.Mana * 1.2 + c.Szint * 5)
+                .Take(5)
+                .ToArray();
 
             Console.WriteLine("TOP 5 legerősebb karakter:");
             foreach (var k in top5)
@@ -208,13 +221,15 @@ namespace kiraly_feladatok
 
             // Legfiatalabb 3 karakter (legkésőbbi születési dátum)
             //
+            Karakter[] legfiatalabb3 = karakterDict.Values
+                .OrderByDescending(c => c.SzuletesDatum)
+                .Take(3)
+                .ToArray();
 
             Console.WriteLine("Legfiatalabb (legkésőbb született) 3 karakter:");
             foreach (var k in legfiatalabb3)
                 Console.WriteLine($"- {k.Nev}: {k.SzuletesDatum:yyyy-MM-dd}");
             Console.WriteLine();
-
-
 
             // (5) kiírás új fájlba
             //
