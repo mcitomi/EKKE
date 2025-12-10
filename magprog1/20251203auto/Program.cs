@@ -1,6 +1,6 @@
 ﻿namespace _20251203auto;
 
-class CarHash
+class CarHash : IComparable<CarHash>
 {
     public CarHash(string rendszam, int km)
     {
@@ -24,6 +24,11 @@ class CarHash
     public override int GetHashCode()
     {
         return Rendszam.GetHashCode();
+    }
+
+    public int CompareTo(CarHash car)
+    {
+        return this.Rendszam.CompareTo(car.Rendszam);
     }
 }
 class Car
@@ -76,6 +81,32 @@ class Program
 
         return kivittek;
     }
+
+    static List<string> Rendszamok(List<Car> lista)
+    {
+        List<string> kigyujtott = new List<string>();
+        for (int i = 0; i < lista.Count; i++)
+        {
+            if (!kigyujtott.Contains(lista[i].Rendszam))
+            {
+                kigyujtott.Add(lista[i].Rendszam);
+            }
+        }
+        return kigyujtott;
+    }
+
+    static List<string> F6_Szemelykereso(List<Car> lista)
+    {
+        List<string> szemelyek = new List<string>();
+        foreach (Car item in lista)
+        {
+            if (!szemelyek.Contains(item.SzemelyiId))
+            {
+                szemelyek.Add(item.SzemelyiId);
+            }
+        }
+        return szemelyek;
+    }
     static void Main(string[] args)
     {
         List<Car> autok = new List<Car>();
@@ -114,6 +145,61 @@ class Program
             }
         }
 
+        int dbnemvoltbenn = 0;
+        foreach (CarHash cars in autok_start)
+        {
+            bool kint = false;
+            foreach (Car item in autok)
+            {
+                if (cars.Rendszam == item.Rendszam)
+                {
+                    kint = item.Kibe == 0;
+                }
+            }
+            if (kint)
+            {
+                dbnemvoltbenn++;
+            }
+        }
+        Console.WriteLine($"A hónap végén {dbnemvoltbenn} autót nem hoztak vissza");
+
+        List<CarHash> temp = new List<CarHash>();
+
+        StreamWriter sw = new StreamWriter("stat.txt");
+
+        List<string> rendszamok = Rendszamok(autok);
+
+        foreach (string rendszam in rendszamok)
+        {
+            int start = 0; int vege = 0;
+            foreach (Car item in autok)
+            {
+                if (item.Rendszam == rendszam && start == 0)
+                {
+                    start = item.Km;
+                }
+                else
+                {
+                    if (item.Rendszam == rendszam)
+                    {
+                        vege = item.Km;
+                    }
+                }
+            }
+            temp.Add(new CarHash(rendszam, vege - start));
+            // System.Console.WriteLine($"{rendszam} {vege - start}"); -- inkabb listaba rendezes
+        }
+
+        temp.Sort();
+        // temp.Sort((x, y) => x.Rendszam.CompareTo(y.Rendszam));
+        var temp3 = autok.OrderBy(x => x.Rendszam);
+
+        foreach (CarHash item in temp)
+        {
+            sw.WriteLine($"{item.Rendszam}: {item.Km} km");
+        }
+        sw.Close();
+
         // ........................
         System.Console.WriteLine("3. feladtat");
 
@@ -126,6 +212,38 @@ class Program
             System.Console.WriteLine($"{elem.OraPerc} {elem.Rendszam} stb.");
         }
 
+        List<string> szemelyek = F6_Szemelykereso(autok);
+        int max = -1; int maxMax = -1; string kio = "";
+        foreach (string item in szemelyek)
+        {
+            int start = 0; int vege = 0;
+            foreach (Car auto in autok)
+            {
+                if (auto.SzemelyiId == item && start == 0)
+                {
+                    start = auto.Km;
+                }
+                else
+                {
+                    if (auto.SzemelyiId == item && vege == 0)
+                    {
+                        vege = auto.Km;
+                        if (max < vege - start)
+                        {
+                            max = vege - start;
+                        }
+                    }
+                }
+            }
+            if(max > maxMax)
+            {
+                maxMax = max;
+                kio = item;
+            }
+        }
+
+        System.Console.WriteLine($"6. feladat: \r\t Leghosszabb út : {maxMax} km, szemely: {kio}\r\n");
+
         System.Console.WriteLine("7. feladat");
 
         System.Console.WriteLine("Kérem a rendszámot: ");
@@ -137,8 +255,8 @@ class Program
         }
         else
         {
-            CarHash temp = autok_start.FirstOrDefault(x => x.Rendszam == rszam);
-            System.Console.WriteLine($"Km: {temp.Km}");
+            CarHash temp2 = autok_start.FirstOrDefault(x => x.Rendszam == rszam);
+            System.Console.WriteLine($"Km: {temp2.Km}");
         }
     }
 }
