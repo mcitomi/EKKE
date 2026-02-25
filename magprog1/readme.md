@@ -8,6 +8,10 @@ https://tinyurl.com/troll-downloads
 http://tinyurl.com/2025MagProgKGS
 http://aries.ektf.hu/~ksanyi/mprog1/gyak2025.zip
 
+- II. Félév
+
+https://aries.ektf.hu/~ksanyi/magasprog2/2026/Students.zip
+
 ## Kommentek
 
 - nyeregpont: a mátrix egy eleme ami a sorban a legnagyobb de az oszlopban a legkisebb
