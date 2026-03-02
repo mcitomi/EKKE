@@ -1,0 +1,134 @@
+Egy könyvnek (Book) van:
+
+-írója (Author, string), min 3 betű, max 20 betű. Vezetéknév és keresztnév. Az első betű nagybetű. Nem lehet üres vagy null.
+(string.IsNullOrEmpty) Ha hosszabbat adnak meg, ne dobjon kivételt, hanem a 20 utáni karaktereket vágja le!
+-címe (Title, string), min 3 betű, max 50 betű.
+- ára, egész szám, maximum 15e Ft, 5-el osztható. Ha beállítják, akkor az isSetPrice mező legye true.
+- műfaja (genre), enum: mese, regény, történelem, szakkönyv, külföldi. Meg kell írni. genre_enum a neve!!
+- e-book-e.  True vagy false.
+- Van-e ára (isSetPrice) bool, private. Legyen egy get-je! (Set nyilván nincs.)
+- ID-je is van, az elsőé 1, a többié eggyel nő (mint a tét).
+- kiadási időpontja (DateTime vagy DateOnly)- Legfeljebb DateTime.Now.
+
+Az osztálynak legyen 3+1 konstruktora
+1. Private!!!! Ezt használjuk a klónozáskor. (Pl. private Book() { }
+2. Szerző és cím (itt az isSetPrice értéke legyen false)
+3. Szerző, cím és ár
+4. Szerző, cím, ár, műfaj, e-book-e, kiadás időpontja. Az e-book false, ha nem adják meg! (bool e-book=false)
+
+Legyen egy Clone property is, lásd lent! Legyen egy ToString() és egy Equals() metódusa is. (Contains miatt)
+
+A genre is egy külön .cs-ben legyen!
+
+
+A könyveket egy könyvespolcon tároljuk, amelynek:
+
+- van egy konstruktora, paraméter nélküli, de létrehozza az üres könyvek listát!
+- van egy feltöltő (Load) metódusa, amely tárolja könyvek egy listáját, melyen nem szerepelhet null érték, 
+és egy könyv maximum egyszer lehet rajta,
+- van egy fv AddBoak(...), paramétere egy könyv, amelyet a könyvespolc listán kívánunk tárolni.
+  (Elvileg itt lehetne többet is, túlterhelés, paraméterektől függően.)
+- van egy összár (PriceSum) csak olvasható property, megadja a könyvespolcon tárolt könyvek összértékét,
+- van egy fv Search(...) egy paramétere egy string, egy író neve, visszatér könyvek egy listájával, amelyek a könyvespolcon vannak tárolva, és amelyeknek az írója a megadott. ha nem talál ilyen könyvet, akkor 0 elemű listával tér vissza.
+Főprogram:
+- Létrehoz két könyvet (b1, b2) teljesen azonos mezőértékekkel!
+- Kiírja, hogy a b1==b2 igaz-e! Igaz? Miért?
+- Megnézi, hogy b1.Equals(b2) igaz-e! Miért?
+-véletlen értékekkel inicializál egy könyvespolcot, 40 könyvvel,
+-a könyv íróit egy listáról választja ki, a címet random állítja elő, a műfajt is random választja,
+
+-kiírja a könyvespolc összértékét,
+-kiírja besorszámozva a képernyőre az írók listáját, a felhasználó a sorszám beírásával választ írót
+-kilistázza a választott íróhoz tartozó könyvek címeit
+-Adott dátum előtti könyvek listája
+-Beolvassa a books.csv tartalmát!:-)
+
+Tudás:
+if (reszek.Length < 2 || !char.IsUpper(reszek[0][0]) || !char.IsUpper(reszek[1][0]))
+
+public override int GetHashCode()
+{
+    return this.author.GetHashCode() +
+        this.title.GetHashCode() +
+        this.isEbook.GetHashCode();
+}
+https://stackoverflow.com/questions/7425142/what-is-hashcode-used-for-is-it-unique
+
+Equals használata:
+public override bool Equals(object obj)
+{
+    if (obj == this) return true;
+    if (obj == null) return false;
+    if (obj.GetHashCode() != this.GetHashCode()) return false; 
+
+    Book other = (Book)obj;
+    return this.author == other.author &&
+           this.title == other.title &&
+           this.isEbook == other.isEbook;
+}
+
+De ez egyébként List-nél teljesen felesleges. Dictionary, HashSet, SortedSet esetén awesome.
+this.author.GetHashCode() +
+        this.title.GetHashCode() +
+        this.isEbook.GetHashCode();
+Ez meg nem tuti jó, 3 különböző szám összege lehet ugyanaz....
+Az eloszlás jobb megoldás:
+public override int GetHashCode()
+{
+    return HashCode.Combine(Author, Title, isEbook);
+}
+
+
+ToString() használata
+ public override string ToString()
+ {
+     return $"Book[" +
+         $"id='{id}'," +
+         $"author='{author}'," +
+         $"title='{title}'," +
+         $"price='{(isPriceSet ? price.ToString() + " HUF" : "N/A")}'," +
+         $"genre='{genre}'," +
+         $"ebook='{(isEbook ? "yes" : "no")}'" +
+         $"]";
+ }
+ Clone szerepe:
+
+amikor objektumot módosítanánk, de az eredetit meg akarjuk őrizni
+amikor listából veszünk ki elemet és átírjuk
+amikor undo / redo kell
+amikor értékszerűen használjuk az objektumot
+ public Book Clone
+{
+    get
+    {
+        //return new Book(this.author, this.title, 
+        //    this.price, this.genre, this.isEbook);
+
+        Book clone = new Book();
+        clone.id = this.id;
+        clone.author = this.author;
+        clone.title = this.title;
+        clone.price = this.price;
+        clone.genre = this.genre;
+        return clone;
+    }
+}
+
+TimeSpan totalAge = DateTime.Now - dateOfBirth.ToDateTime(TimeOnly.MinValue);
+100 évnél régebbiek?
+
+Ha string kell az enum helyett:
+MyEnum myEnum = (MyEnum)Enum.Parse(typeof(MyEnum), "text");
+ha generálom
+(mufaj)r.Next(0, 5)
+
+ int f = r.Next(Enum.GetNames(typeof(konyv.mufaj_enum)).Length);  //generál egy véletlenszámot 0 és az enum elemeinek a száma közé...
+                temp.mufaj = ((konyv.mufaj_enum)(f)).ToString(); //kiválasztja a generált számú műfajt, konvertálja műfaj típusra. Bonyolult.....
+                
+
+return booksOnShelf.Sum(x => x.isSetPrice ? x.Price : 0);
+
+
+
+Forrás:
+https://aries.ektf.hu/~hz/wiki7/mprog2gy/gyak-03
