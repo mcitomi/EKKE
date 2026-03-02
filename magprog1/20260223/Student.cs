@@ -1,6 +1,6 @@
 namespace _20260223;
 
-class Student
+class Student : IComparable<Student>
 {
     private string _FirstName;
     public string FirstName
@@ -144,5 +144,17 @@ class Student
         Average = p5;
         IsActive = p6;
         Gender = p7;
+    }
+
+    public int CompareTo(Student obj)
+    {
+        if(this.GetLastName() == obj.GetLastName())
+        {
+            return this.FirstName.CompareTo(obj.FirstName) * -1;
+        }
+        else
+        {
+            return this.GetLastName().CompareTo(obj.GetLastName()) * -1;
+        }
     }
 }

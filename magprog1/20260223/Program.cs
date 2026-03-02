@@ -25,14 +25,19 @@ class Program
                 line[0],
                 line[1],
                 DateOnly.Parse(line[2].ToString()),
-                line[3],
-                double.Parse(line[4]),
-                bool.Parse(line[5]),
-                (GenderEnum) Enum.Parse(typeof(GenderEnum), line[6])
+                line[4],
+                double.Parse(line[3]),
+                line[6] == "igaz" ? true : false,
+                (GenderEnum) Enum.Parse(typeof(GenderEnum), line[5])
                 )
             );
         }
 
         inp.Close();
+
+        foreach (Student item in store)
+        {
+            System.Console.WriteLine(item.ToString());
+        }
     }
 }
