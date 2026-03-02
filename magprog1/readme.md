@@ -10,7 +10,11 @@ http://aries.ektf.hu/~ksanyi/mprog1/gyak2025.zip
 
 - II. Félév
 
+https://aries.ektf.hu/~ksanyi/magasprog2/1.txt
 https://aries.ektf.hu/~ksanyi/magasprog2/2026/Students.zip
+
+https://aries.ektf.hu/~ksanyi/magasprog2/2.txt
+https://aries.ektf.hu/~ksanyi/magasprog2/2026/konyvespart.zip
 
 ## Kommentek
 
