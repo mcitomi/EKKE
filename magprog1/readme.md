@@ -9,6 +9,7 @@ http://tinyurl.com/2025MagProgKGS
 http://aries.ektf.hu/~ksanyi/mprog1/gyak2025.zip
 
 - II. Félév
+http://tinyurl.com/yym559je
 
 https://aries.ektf.hu/~ksanyi/magasprog2/1.txt
 https://aries.ektf.hu/~ksanyi/magasprog2/2026/Students.zip

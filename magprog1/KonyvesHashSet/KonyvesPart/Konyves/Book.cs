@@ -1,7 +1,5 @@
-﻿using System;
-
-// Óra elejen nem írtam bele mindent mert az aries.ektf.hu-val szenvedtem mert mobilnetről nem tölt be se nekem se rolandnak xd
-
+﻿using Konyves;
+using System;
 namespace konyvespolc
 {
     class Book
@@ -25,14 +23,18 @@ namespace konyvespolc
         {
             get
             {
-                return _author;
+               return _author;
             }
             set
             {
-                if (value.Length < 3 || value.Length > 20)
+                if (value.Length > 20)
                     this._author = value.Substring(0, 20);
-                //throw new ArgumentException("A név hosszának 3 és 20 közöttinek kell lennie!");
-                var reszek = value.Split(' ');
+                    //throw new ArgumentException("A név hosszának 3 és 20 közöttinek kell lennie!");
+                string[] reszek = value.Split(' ');
+                if (!char.IsAsciiLetterUpper(reszek[0][0]) || !char.IsAsciiLetterUpper(reszek[1][0]))
+                    throw new ArgumentException("Nem nagybetűs");
+                if (value.Length < 2)
+                    throw new ArgumentException("Túl kicsi (<2)");
                 //Kimaradt rész. Az első betűk nagybetűk, legalább 2 karakter 
                 this._author = value;
             }
@@ -56,11 +58,13 @@ namespace konyvespolc
         {
             get
             {
-                return this._publishDate;
+                return _publishDate;
             }
             set
             {
-                //kimaradt
+                if (value > DateTime.Now)
+                    throw new Exception("Túl nagy a dátum");
+                _publishDate = value;
             }
         }
         private int _price;
@@ -72,10 +76,13 @@ namespace konyvespolc
             }
             set
             {
-                //Kimaradt
+                if (value > 15000 || value % 5 != 0)
+                    throw new ArgumentException("Nem megfelelő ár");
+                this._price = value;
+                _isSetPrice = true;
             }
         }
-        // public ..... genre_enum deklarálása;
+       
         public bool isEbook = false;
         private bool _isSetPrice;
         public bool isSetPrice
@@ -86,51 +93,57 @@ namespace konyvespolc
             }
         }
 
-        public genreEnum Genre;
+        public genre_enum Genre;
+        private Book()
+        { 
+        }
 
-        // Kell egy priavate Book konstruktor, param nélkül
-        //Konstruktorok megírása!!! 3+1
+        //Szerző és cím(itt az isSetPrice értéke legyen false)
 
-        public Book() { }
-
-        private Book(string author, string title)
+        public Book(string author, string title)
         {
-            // Kötelező a propertyt hívni
             this.Author = author;
             this.Title = title;
             this._isSetPrice = false;
             this.Id = ID++;
         }
 
-        public Book(string author, string title, int price) : this(author, title) // Meghívjuk a felette lévő konstruktort
+        public Book(string author, string title, int price):this(author, title)
         {
             this.Price = price;
         }
 
-        public Book(string author, string title, int price, genreEnum genre, bool ebooke, DateTime publish) : this(author, title, price) // Meghívjuk a felette lévő konstruktort
+        public Book(string author, string title, int price, genre_enum genr, bool ebooke, DateTime publish ) 
+            : this(author, title, price)
         {
-            this.Genre = genre;
+            this.Genre = genr;
             this.isEbook = ebooke;
             this.PublishDate = publish;
         }
-
         public Book Clone
         {
             get
             {
+
                 //return new Book(this.author, this.title, 
                 //    this.price, this.genre); //Ez működik vajon?  Egyébként jobb, ha a Clone az Clone(). :-)
                 Book clone = new Book();
                 clone.Author = this.Author;
                 clone.Title = this.Title;
+                clone.Price = this.Price;
+                clone.Genre = this.Genre;
+                clone.isEbook= this.isEbook;
+                clone.PublishDate = this.PublishDate; clone.id = this.id;
+
                 return clone;
-                // "minden mezot vegig kell csinalni"
             }
         }
 
         public override string ToString()
         {
+
             return $"Book[" +
+                $"Id='{Id}" +
                 $"author='{Author}'," +
                 $"title='{Title}'," +
                 $"price='{(isSetPrice ? Price.ToString() + " HUF" : "N/A")}'," +
@@ -140,37 +153,33 @@ namespace konyvespolc
         }
         public override int GetHashCode()
         {
-            return 1; //Mikor azonos két könyv?
+            // Összeadással hülyeség ez, Combine 👍
+            // összeadással lehetne két ugyan olyan hashcode
 
-            // A GetHashCode az most.. inkabb elmondom.
-            // text kent kapunk meg egy adatot, azokat parsoljuk enum int stb
-            // az enum vissza adja a text referenciajat, bele pakolja ebbe, 
-            // bullshit amit alapbol az equalsba kérnek, pl a lista nem nézi a GetHashCode() nem fog működni,
-            // ez akkor kell ha Dictionary, SortedSet
-            // A hash szám összeadas hulyeseg, HashCode.Combine(...params) amit használni érdemes
-            
+            return HashCode.Combine(this._author, this._title.GetHashCode(),this.isEbook);
         }
+        /*public override int GetHashCode()
+        {
+            return 1; //Mikor azonos két könyv?
+        }*/
+        /*public override bool Equals(object obj)
+        {
+            if (obj is null)
+                return false;
+            if (obj is not Book)
+                return false;
+            Book MyBook = (Book)obj;
+            return this.Author == MyBook.Author && this.Title == MyBook.Title && MyBook.isEbook == this.isEbook;
+        }*/
         public override bool Equals(object obj)
         {
-            if(obj == this)
-            {
-                return true;
-            }
-
-            if(obj is null)
-            {
+            if (this == obj) return true;
+            if (obj is null)
                 return false;
-            }
-
-            if(obj is not Book)
-            {
+            if (obj is not Book)
                 return false;
-            }
-
             Book MyBook = (Book)obj;
-
-            return this.Author == MyBook.Author && this.Title == MyBook.Title && this.isEbook == MyBook.isEbook;
-            // ennyi lenn, DE: ha ezt nem írjuk meg sose lehet két obj egyenlo
+            return this.Author.GetHashCode() == MyBook.Author.GetHashCode() && this.Title.GetHashCode() == MyBook.Title.GetHashCode() && MyBook.isEbook.GetHashCode() == this.isEbook.GetHashCode();   
         }
     }
 }

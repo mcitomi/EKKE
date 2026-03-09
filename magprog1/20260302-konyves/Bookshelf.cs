@@ -6,10 +6,10 @@ namespace konyvespolc
 {
     class Bookshelf
     {
-        public List<Book> booksOnShelf;//Kérdés: Kell ide static?
+        private List<Book> booksOnShelf;//Kérdés: Kell ide static?
         public Bookshelf()
         {
-            //Kimaradt...
+            booksOnShelf = new List<Book>();
         }
         public void Load(List<Book> newBooks)
         {
@@ -24,14 +24,17 @@ namespace konyvespolc
         public void AddBook(Book book)
         {
             //Ide kell egy if
-                booksOnShelf.Add(book);
+            booksOnShelf.Add(book);
         }
         public int priceSum
         {
             get
             {
                 // Csak olvasható property. Lambdával kellene! :-)
-                return 1;
+
+
+                return booksOnShelf.Where(x => x.isSetPrice).Sum(x => x.Price);
+            
             }
         }
         public List<Book> Search(string name)
@@ -43,6 +46,16 @@ namespace konyvespolc
                     authorBooks.Add(item);
             }
             return authorBooks;
+        }
+
+        public List<Book> GetAllBooks()
+        {
+            Book myBook = booksOnShelf[0].Clone;
+            myBook.Author = "Malacka Géza";
+            Console.WriteLine(booksOnShelf[0].Author); // Egyenlővé tettük a két objektumot, ezért átírja a listában is. Memória. 
+            // //  De ha klónuzzok nem íródik át a listába
+
+            return booksOnShelf;
         }
     }
 }

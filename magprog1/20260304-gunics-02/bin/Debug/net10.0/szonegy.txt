@@ -1,0 +1,2 @@
+hossz;szelesseg;evjarat;szin;rojt
+10;3;1999;Hupilila;igen

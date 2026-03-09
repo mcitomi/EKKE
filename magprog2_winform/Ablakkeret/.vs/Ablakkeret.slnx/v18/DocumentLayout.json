@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\EKKE\\magprog2_winform\\Ablakkeret\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF74B535-9F85-47AF-A9BB-7495D785C4B2}|Ablakkeret\\Ablakkeret.csproj|H:\\EKKE\\magprog2_winform\\Ablakkeret\\ablakkeret\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF74B535-9F85-47AF-A9BB-7495D785C4B2}|Ablakkeret\\Ablakkeret.csproj|solutionrelative:ablakkeret\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF74B535-9F85-47AF-A9BB-7495D785C4B2}|Ablakkeret\\Ablakkeret.csproj|h:\\ekke\\magprog2_winform\\ablakkeret\\ablakkeret\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AF74B535-9F85-47AF-A9BB-7495D785C4B2}|Ablakkeret\\Ablakkeret.csproj|solutionrelative:ablakkeret\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF74B535-9F85-47AF-A9BB-7495D785C4B2}|Ablakkeret\\Ablakkeret.csproj|h:\\ekke\\magprog2_winform\\ablakkeret\\ablakkeret\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF74B535-9F85-47AF-A9BB-7495D785C4B2}|Ablakkeret\\Ablakkeret.csproj|solutionrelative:ablakkeret\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF74B535-9F85-47AF-A9BB-7495D785C4B2}|Ablakkeret\\Ablakkeret.csproj|h:\\ekke\\magprog2_winform\\ablakkeret\\ablakkeret\\windows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF74B535-9F85-47AF-A9BB-7495D785C4B2}|Ablakkeret\\Ablakkeret.csproj|solutionrelative:ablakkeret\\windows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Windows.cs",
+              "DocumentMoniker": "H:\\EKKE\\magprog2_winform\\Ablakkeret\\Ablakkeret\\Windows.cs",
+              "RelativeDocumentMoniker": "Ablakkeret\\Windows.cs",
+              "ToolTip": "H:\\EKKE\\magprog2_winform\\Ablakkeret\\Ablakkeret\\Windows.cs",
+              "RelativeToolTip": "Ablakkeret\\Windows.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T17:29:02.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "H:\\EKKE\\magprog2_winform\\Ablakkeret\\Ablakkeret\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Ablakkeret\\Form1.Designer.cs",
+              "ToolTip": "H:\\EKKE\\magprog2_winform\\Ablakkeret\\Ablakkeret\\Form1.Designer.cs",
+              "RelativeToolTip": "Ablakkeret\\Form1.Designer.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAowGEAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T17:12:53.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "H:\\EKKE\\magprog2_winform\\Ablakkeret\\Ablakkeret\\Form1.cs",
+              "RelativeDocumentMoniker": "Ablakkeret\\Form1.cs",
+              "ToolTip": "H:\\EKKE\\magprog2_winform\\Ablakkeret\\Ablakkeret\\Form1.cs [Design]",
+              "RelativeToolTip": "Ablakkeret\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T17:08:03.446Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "H:\\EKKE\\magprog2_winform\\Ablakkeret\\Ablakkeret\\Form1.cs",
+              "RelativeDocumentMoniker": "Ablakkeret\\Form1.cs",
+              "ToolTip": "H:\\EKKE\\magprog2_winform\\Ablakkeret\\Ablakkeret\\Form1.cs",
+              "RelativeToolTip": "Ablakkeret\\Form1.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T17:04:18.635Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

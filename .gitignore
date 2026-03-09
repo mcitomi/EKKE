@@ -8,15 +8,21 @@
 
 # Build results
 
-[Dd]ebug/
+# [Dd]ebug/ # c# input fileok miatt
 [Rr]elease/
 x64/
-[Bb]in/
+# [Bb]in/
 [Oo]bj/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
+
+**/bin/**/*.exe
+**/bin/**/*.dll
+
+*runtimeconfig.json
+*deps.json
 
 *_i.c
 *_p.c
@@ -43,6 +49,7 @@ x64/
 *.log
 *.svclog
 *.scc
+
 
 # Visual C++ cache files
 ipch/

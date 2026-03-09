@@ -1,0 +1,4 @@
+Zorro;Lajos;2002.12.20;4.6;Cadiz;Male;igaz
+Superman;Géza;2004.12.21;4.7;Kripto;Male;igaz
+Harcos;Women;2001.12.22;4.9;Gibralter;Female;igaz
+Hermione;Granger;2003.12.23;5.0;York;Female;igaz
