@@ -1,0 +1,17 @@
+    1  pwd
+    2  mkdir teszt
+    3  ls
+    4  mv teszt test2
+    5  l
+    6  cd teszt2
+    7  cd test2
+    8  mkdir elso
+    9  mdkir masodik
+   10  mkdir masodik
+   11  ls
+   12  ls -lah
+   13  cd masodik/
+   14  touch proba.txt
+   15  l
+   16  history
+   17  history > proba.txt

@@ -1,0 +1,47 @@
+  641  pwd
+  642  cd /
+  643  cd
+  644  cd /etc
+  645  cd ..
+  646  tree
+  647  ls -lah
+  648  cd /var/log
+  649  ls -lah
+  650  cd
+  651  mkdir Teszt
+  652  mkdir T1 T2
+  653  tree
+  654  cd Teszt
+  655  mkdir Unix/Linux/Debian
+  656  cd ..
+  657  mkdir -p Teszt/Unix/Linux/Debian
+  658  mv Teszt/Unix/Linux/Debian Teszt/Unix/Linux/Deb
+  659  mv Teszt/Unix/Linux/Deb Teszt/T1
+  660  rmdir T1
+  661  rm -r Teszt
+  662  ls
+  663  ls /etc -lah
+  664  ls /etc -lah | grep *.conf
+  665  ls /etc -lah | grep .conf
+  666  ls /etc/p*
+  667  ls -l /etc/p*
+  668  ls -l /etc/*f
+  669  ls -l /etc/ | grep *f
+  670  ls -l /etc/*f
+  671  ls -l /etc/p?s*d
+  672  ls -lah /etc/p?s*d
+  673  ls -lah
+  674  ls -l /etc/?a|n*
+  675  ls -l /etc/?[a|n]*
+  676  ls -l /etc/?[an]*
+  677  ls -l /etc/?[^an]*
+  678  ls /
+  679  ls -Rl /
+  680  history
+  681  mc
+  682  apt-get install mc
+  683  sudo apt-get install mc
+  684  mc
+  685  l
+  686  cd T2
+  687  history > save.txt
