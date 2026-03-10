@@ -1,0 +1,11 @@
+    1  ls
+    2  cd oprendszerek/
+    3  mkdir test1
+    4  cd test1/
+    5  cd ..
+    6  l
+    7  cp test.txt test1/
+    8  who
+    9  date
+   10  passwd
+   11  history > history.txt
