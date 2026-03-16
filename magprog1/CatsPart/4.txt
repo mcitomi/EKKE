@@ -1,0 +1,75 @@
+Öröklés, virtuális metódusok, property-k, statikus mezõk. this, base. Indexelõ.Saját operátor. Reguláris kifejezések.
+IComparable+CompareTo =>rendezés. Equals.
+
+0. OOPteszt. A virtualitás valóságos hatása.
+1. Regex:
+
+------------------------
+private static void Main(string[] args)
+    {
+        string pattern = @"^[A-Z]{3}-\d{3}$";  // @".....". Kötelezõ. Az elsõ(!) három karakter: ^[A-Z]{3}. Után "-" kell!. Majd három szám \d{3}. 
+        //A ^ és $ miatt a teljes szöveg pontosan illeszkedi a mintára.
+        Regex regex = new Regex(pattern);
+
+        string pattern2 = @"^[A-Z]{2}-[A-Z]{2}-\d{3}$";  //2 betû, "-", majd két betû, majd "-", majd 3 szám!
+        string[] testPlates = { "ABC-123", "XYZ-789", "A1C-456", "ABCD-123", "XYZ-12A" }; //$ a vége
+
+        foreach (var plate in testPlates)
+        {
+            if (regex.IsMatch(plate))  //Itt a hasonlítás
+            {
+                Console.WriteLine($"{plate} érvényes");
+            }
+            else
+            {
+                Console.WriteLine($"{plate} nem érvényes.");
+            }
+        }
+        string pattern3 = @"^\+36-(20|30|70)-\d{7}$";
+        Regex regex2 = new Regex(pattern3);
+        if (regex2.IsMatch("+36-20-3642668"))
+            Console.WriteLine("Hurrá");
+
+        //+36-20-3642669  ^\+36(20|30|70)\d{7}$
+        //^\d{ 3}-\d{ 3}$
+        //Csak karakter lehet benne. Csak karakter és ékezetes is.
+        //Új típusú rendszám?
+
+    }
+
+2. Macskatelep indexelõvel. Egy macskának van neve, amely csak betûkbõl (ékezetes is lehet:-() állhat. A gyakorlás kedvéért GetName(), SetName() metódusokat írjunk! (Most meg van írva a property, cseréljük le! Mindenhol!:-)
+A macskának van egy chipId-je. Ennek az elsõ 3 karaktere CAT vagy Cat, ugyanakkor az "a" betû helyett lehet bármilyen magánhangzó (angol ábécé.) A tovább karaktereket egy sorszám adja, amelyet a program létrehozáskor generál egy statikus ID változót használva. (pl. CAT1 vagy Cat2 vagy Cut3 vagy Cot4, stb.) Ha a kapott szöveg több mint 3 karakter, a többit a program ne vegye figyelembe!
+
+A macskának van kora, 0-15, egész szám. (Nincs megírva, írjuk meg!) A macskának van anyja is, ez egy Macska (Cat) típusú objektum. Ha az adatok nem megfelelõek, akkor a program dobjon kivételt. A macskának van színe is: black, red, grey, white. Enum legyen! (Most nem az, javítsuk!)
+Két macska akkor azonos, ha a ChipId-jük azonos! Úgy írjuk meg, hogy HashSet és Dictionary esetén is "rendesen" mûködjön!
+Két macska közül az a kisebb, amelyik a fiatalabb! Ha egyforma az életkoruk, akkor a ChipId alapján történjen az összehasonlítás! Írjuk meg az operátort! (Van >= és <= is, most < > kell! Készen van.)
+
+Írjunk egy Clone() függvényt is! A Clone() függvény használjon egy paraméter nélküli konstruktort! (Anélkül is menne!)
+
+Legyen még két publikus konstruktor! Az egyik a macska nevét, korát és chipId-jét kapja meg, a másik csak a nevet és a chipId-t, a kor 0 legyen! 
+Írjunk olyan konstruktort is, amelyek paraméterként színt és átvesz! A többinél a szín alapértelmezésben mindig fekete legyen!
+
+Írunk meg a ToString() metódust is! (A ZH-n ez 2 pont!:-) Ha szépen meg van írva!)
+
+
+Egy házimacska olyan, mint egy macska, de ismerjük a tömegét is. 1-20 kg közötti érték, egész szám. Írjunk hozzá konstruktort is!
+Írjunk olyan konstruktort is, amelyik átveszi paraméterként a tömeget, és olyat is, amelyik nem, csak a többit! Írjuk meg a saját ToString()-jét is! (base.ToString()+...) Override is kell! Ráadásul a házi macskák tovább élnek, így a property-t is át kell írni, 0-20-ra!
+
+A macskák hotelben vannak szállásolva. CatHotel. 
+Az adatokat egy listában tároljuk. Írjunk indexelõt, hogy külsõ osztályból el tudjunk érni macskákat a listából! (Set kell?) Írjunk egy Exist metódus, amely igazat ad vissza, ha a paraméterként kapott macska benne van a listában!
+Írjunk egy AddCat metódust, amely hozzáad egy macskát a listához! Használjuk az Exist függvényt!
+Írjunk metódust (Ordered), amely rendezi a listát! (Nincs megírva!)
+
+A fõprogramban hozzunk létre egy macsakatelepet. Hozzunk létre egy "õsmacskát", akinek nincs anyja, "Mother" a neve, 5 éves, CHIP1 lesz az azonosítója! Adjuk hozzá a telephez!
+
+Ennek a macskának legyen 10 gyereke! 7 macska, 3 házimacska. Írassuk ki a macskatelep lakóit! (Ehhez új metódust kell a konténert osztályba!)
+Írni kell egy speciális konstruktort is, amely beállítja a házimacskák esetén az anyát, aki meg nem házimacska!
+Teszteljük az indexelõ mûködését!
+Tegyük ki egy változóba a 1-es sorszámú macskát, majd klónozzuk le, és tegyük bele a teszt2 változóba! Vajon egyenlõek?:-)
+Vajon a teszt2 benne van a macskatelep listájában?
+Hozzunk létre két macskát, "üresen". Adjuk meg a korukat! Melyik macska lesz a kisebb?
+Mi történik, ha két macska azonos korú? 
+Kérdés: Tudunk-e HouseCat objektumokok klónozni? (Ha igen, mikor?)
+
+   
+
