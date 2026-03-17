@@ -6,5 +6,5 @@ https://tinyurl.com/kadam-share
 
 (https://colab.research.google.com/) 
 
-### HF:
-https://colab.research.google.com/drive/1ZNyLkzdy4CNprJzyUprifnk-etpbzygh#scrollTo=2FIxSwJKM57m
+### Colab:
+[https://colab.research.google.com/drive/1ZNyLkzdy4CNprJzyUprifnk-etpbzygh#scrollTo=2FIxSwJKM57m](https://colab.research.google.com/drive/1B5pQH_6xZb651KU9wKoPtYoWILgKAHtL?usp=sharing)
