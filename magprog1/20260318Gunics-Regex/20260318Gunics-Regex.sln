@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20260318Gunics-Regex", "20260318Gunics-Regex.csproj", "{2EE3B408-7A6A-E85C-F56F-96F0B9036982}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EE3B408-7A6A-E85C-F56F-96F0B9036982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE3B408-7A6A-E85C-F56F-96F0B9036982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE3B408-7A6A-E85C-F56F-96F0B9036982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE3B408-7A6A-E85C-F56F-96F0B9036982}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDE98FB6-B55E-4F53-B302-FAF0046CB329}
+	EndGlobalSection
+EndGlobal
