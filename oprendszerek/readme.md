@@ -25,7 +25,37 @@ R.Kitti: http://tinyurl.com/rkop1sub1
 
 `history > test.txt` : Az előzmények tartalmát kiírjuk a test.txt fájlba. (az előzmények helyett bármit kiírhatunk a fájlba ezzel a kapcsolóval)
 
-`cat test.txt` : A test.txt fájl tartalmának konzolra írása.
+`>>` : Hozzáfűzni a fájlhoz az új kimenetet
+
+`>` : Felülírja a fájlt
+
+`2>` : Hibaüzenetekhez ezzel írhatunk bele fájlba
+
+`2>>` : Hiba hozzáfűzése 
+
+pl : `ls nemletezo_file 2> err.txt`
+
+`cat test.txt` : A test.txt fájl tartalmának konzolra írása. 
+
+Fájlból parancsba irányítás: `wc -l < err.txt`
+
+Pipe: `|` : Több parancsot futtathatunk egymás után, és az első parancs kimenetét átadja a másik bemenetének. pl: `ls -l | grep .txt`
+
+pl több parancs: `cat log.txt | grep error | sort | unique -c`
+
+`cut -d',' -f1,3 nevek.txt`: Szétvág a vessző mentén és csak a 1. és 3. fieldeket adja vissza (1-től kezd)
+
+`head -n 5` : Első 5 sor megjelenítése
+
+`tail -n 5` : Utolsó 5 sor megjelenítése
+
+(Alapból 10 sort jelenítenek meg -n nélkül)
+
+`tr 'a' 'b' < nevek.txt` a betűk b-re cserélése
+
+`grep "2023" nevek.txt | tee evszam.txt` : tee: A megadott bemenetet kiírja egy fájlba és a konzolba is
+
+`tac` : ugyan az mint a cat csak fordítva írja ki
 
 ### Windows alap parancsok:
 
