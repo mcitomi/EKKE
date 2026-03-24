@@ -1,0 +1,56 @@
+    1  history
+    2  clear
+    3  cd ..
+    4  mkdir rkitti
+    5  cd rkitti/
+    6  "Hello World!" > helloworld.txt
+    7  echo "Hello World!" > helloworld.txt
+    8  echo "Hello again!" >> helloworld.txt 
+    9  l
+   10  cat helloworld.txt 
+   11  echo "brr" >> helloworld.txt 
+   12  cat helloworld.txt 
+   13  echo "Hello World!" > helloworld.txt
+   14  cat helloworld.txt 
+   15  ls nemletezo_file 2> err.txt
+   16  cat err.txt 
+   17  ls masik_nemletezo_file 2>> err.txt
+   18  cat err.txt 
+   19  ls masik_nemletezo_file >> err.txt
+   20  cat err.txt 
+   21  wc -l < err.txt 
+   22  dd
+   23  cat /proc/1/status
+   24  ls -l | grep .txt
+   25  touch nevek.txt
+   26  nano nevek.txt 
+   27  cat nevek.txt 
+   28  nano asd.txt
+   29  cat asd.txt 
+   30  rm asd.txt 
+   31  grep "Debrecen" nevek.txt 
+   32  grep -v "Debrecen" nevek.txt 
+   33  grep "Pécs" nevek.txt | sort
+   34  grep "2022" nevek.txt 
+   35  cut -d',' -f1 nevek.txt 
+   36  cut -d',' -f1 nevek.txt | sort
+   37  cut -d',' -f1,3 nevek.txt | sort
+   38  wc nevek.txt 
+   39  wc -c nevek.txt 
+   40  wc -l nevek.txt 
+   41  grep "Miskolc" nevek.txt 
+   42  grep "Miskolc" nevek.txt  | wc -l
+   43  head -n 3 nevek.txt 
+   44  tail -n 3 nevek.txt 
+   45  grep "Szeged" nevek.txt | head -n 2
+   46  tr 'a' 'b' < nevek.txt 
+   47  cat nevek.txt 
+   48  sort -r nevek.txt 
+   49  grep "2023" nevek.txt | tree evszam.txt
+   50  grep "2023" nevek.txt | tee evszam.txt
+   51  cat evszam.txt 
+   52  more nevek.txt 
+   53  less nevek.txt 
+   54  tac nevek.txt 
+   55  cat nevek.txt 
+   56  history > history.txt

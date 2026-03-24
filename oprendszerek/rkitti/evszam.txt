@@ -1,0 +1,10 @@
+Anna,25,Budapest,2023-10-01
+Béla,30,Szeged,2023-09-15
+Cecília,22,Pécs,2023-08-20
+Dénes,40,Debrecen,2023-07-05
+Erika,35,Miskolc,2023-06-10
+Ferenc,28,Győr,2023-05-15
+Gábor,33,Szeged,2023-04-20
+Hédi,27,Budapest,2023-03-25
+István,29,Pécs,2023-02-28
+János,31,Debrecen,2023-01-15

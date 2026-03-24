@@ -1,0 +1,2 @@
+ls: cannot access 'nemletezo_file': No such file or directory
+ls: cannot access 'masik_nemletezo_file': No such file or directory
