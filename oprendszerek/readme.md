@@ -1,7 +1,9 @@
 # Operációs rendszerek I.
-### Apró anikó
+### Apró Anikó
 
 Drive: https://drive.google.com/drive/folders/1cctD-IT1wfLj41rCDndrrQnGFowJwnVR
+
+R.Kitti: http://tinyurl.com/rkop1sub1
 
 ### Linux alap parancsok:
 
