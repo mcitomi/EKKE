@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EKKE masodik felev\\magprog II gyak\\orai\\Gepkocsik\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{645CD1C7-22B6-4664-B46A-57783DB0C464}|Gepkocsik\\Gepkocsik.csproj|d:\\ekke masodik felev\\magprog ii gyak\\orai\\gepkocsik\\gepkocsik\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645CD1C7-22B6-4664-B46A-57783DB0C464}|Gepkocsik\\Gepkocsik.csproj|solutionrelative:gepkocsik\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{645CD1C7-22B6-4664-B46A-57783DB0C464}|Gepkocsik\\Gepkocsik.csproj|d:\\ekke masodik felev\\magprog ii gyak\\orai\\gepkocsik\\gepkocsik\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645CD1C7-22B6-4664-B46A-57783DB0C464}|Gepkocsik\\Gepkocsik.csproj|solutionrelative:gepkocsik\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{645CD1C7-22B6-4664-B46A-57783DB0C464}|Gepkocsik\\Gepkocsik.csproj|d:\\ekke masodik felev\\magprog ii gyak\\orai\\gepkocsik\\gepkocsik\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{645CD1C7-22B6-4664-B46A-57783DB0C464}|Gepkocsik\\Gepkocsik.csproj|solutionrelative:gepkocsik\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{645CD1C7-22B6-4664-B46A-57783DB0C464}|Gepkocsik\\Gepkocsik.csproj|d:\\ekke masodik felev\\magprog ii gyak\\orai\\gepkocsik\\gepkocsik\\gepkocsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645CD1C7-22B6-4664-B46A-57783DB0C464}|Gepkocsik\\Gepkocsik.csproj|solutionrelative:gepkocsik\\gepkocsi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{645CD1C7-22B6-4664-B46A-57783DB0C464}|Gepkocsik\\Gepkocsik.csproj|d:\\ekke masodik felev\\magprog ii gyak\\orai\\gepkocsik\\gepkocsik\\allapotenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645CD1C7-22B6-4664-B46A-57783DB0C464}|Gepkocsik\\Gepkocsik.csproj|solutionrelative:gepkocsik\\allapotenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\EKKE masodik felev\\magprog II gyak\\orai\\Gepkocsik\\Gepkocsik\\Form2.cs",
+              "RelativeDocumentMoniker": "Gepkocsik\\Form2.cs",
+              "ToolTip": "D:\\EKKE masodik felev\\magprog II gyak\\orai\\Gepkocsik\\Gepkocsik\\Form2.cs",
+              "RelativeToolTip": "Gepkocsik\\Form2.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwFYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:33:56.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AllapotEnum.cs",
+              "DocumentMoniker": "D:\\EKKE masodik felev\\magprog II gyak\\orai\\Gepkocsik\\Gepkocsik\\AllapotEnum.cs",
+              "RelativeDocumentMoniker": "Gepkocsik\\AllapotEnum.cs",
+              "ToolTip": "D:\\EKKE masodik felev\\magprog II gyak\\orai\\Gepkocsik\\Gepkocsik\\AllapotEnum.cs",
+              "RelativeToolTip": "Gepkocsik\\AllapotEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:08:55.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gepkocsi.cs",
+              "DocumentMoniker": "D:\\EKKE masodik felev\\magprog II gyak\\orai\\Gepkocsik\\Gepkocsik\\Gepkocsi.cs",
+              "RelativeDocumentMoniker": "Gepkocsik\\Gepkocsi.cs",
+              "ToolTip": "D:\\EKKE masodik felev\\magprog II gyak\\orai\\Gepkocsik\\Gepkocsik\\Gepkocsi.cs",
+              "RelativeToolTip": "Gepkocsik\\Gepkocsi.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAewB4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:05:09.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\EKKE masodik felev\\magprog II gyak\\orai\\Gepkocsik\\Gepkocsik\\Form1.cs",
+              "RelativeDocumentMoniker": "Gepkocsik\\Form1.cs",
+              "ToolTip": "D:\\EKKE masodik felev\\magprog II gyak\\orai\\Gepkocsik\\Gepkocsik\\Form1.cs",
+              "RelativeToolTip": "Gepkocsik\\Form1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wCIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:03:44.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\EKKE masodik felev\\magprog II gyak\\orai\\Gepkocsik\\Gepkocsik\\Form1.cs",
+              "RelativeDocumentMoniker": "Gepkocsik\\Form1.cs",
+              "ToolTip": "D:\\EKKE masodik felev\\magprog II gyak\\orai\\Gepkocsik\\Gepkocsik\\Form1.cs [Design]",
+              "RelativeToolTip": "Gepkocsik\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T17:02:37.973Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
