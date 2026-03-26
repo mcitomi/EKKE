@@ -9,6 +9,7 @@ $password = trim($_POST["password"] ?? "");
 
 if ($username == "" || $password == "") {
     $hiba = "Minden adatot meg kell adni";
+
 } else {
     $hash = password_hash($password, PASSWORD_DEFAULT);
 

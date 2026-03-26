@@ -1,3 +1,9 @@
+<?php
+require_once("auth.php");
+
+csakBejelentekzve();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +12,10 @@
     <title>Document</title>
 </head>
 <body>
-    
+   <p> cool <?= htmlspecialchars($_SESSION["username"]) ?></p>
+
+   <form action="logout.php" method="post">
+    <button>kijelentkezes</button>
+   </form>
 </body>
 </html>
