@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|c:\\!ksanyi\\ekke\\magaszintu2\\2026\\6absztrakt\\kopapirollo\\kopapirollo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|solutionrelative:kopapirollo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|c:\\!ksanyi\\ekke\\magaszintu2\\2026\\6absztrakt\\kopapirollo\\kopapirollo\\jatekbarlang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|solutionrelative:kopapirollo\\jatekbarlang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|c:\\!ksanyi\\ekke\\magaszintu2\\2026\\6absztrakt\\kopapirollo\\kopapirollo\\biro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|solutionrelative:kopapirollo\\biro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|c:\\!ksanyi\\ekke\\magaszintu2\\2026\\6absztrakt\\kopapirollo\\kopapirollo\\fixkinaijatekos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|solutionrelative:kopapirollo\\fixkinaijatekos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|c:\\!ksanyi\\ekke\\magaszintu2\\2026\\6absztrakt\\kopapirollo\\kopapirollo\\kinaijatekos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|solutionrelative:kopapirollo\\kinaijatekos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|c:\\!ksanyi\\ekke\\magaszintu2\\2026\\6absztrakt\\kopapirollo\\kopapirollo\\maffiabiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|solutionrelative:kopapirollo\\maffiabiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|c:\\!ksanyi\\ekke\\magaszintu2\\2026\\6absztrakt\\kopapirollo\\kopapirollo\\enumlepes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|solutionrelative:kopapirollo\\enumlepes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|c:\\!ksanyi\\ekke\\magaszintu2\\2026\\6absztrakt\\kopapirollo\\kopapirollo\\jatekos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA825CF1-5EB1-4EC9-B946-5136AC237A11}|KoPapirOllo\\KoPapirOllo.csproj|solutionrelative:kopapirollo\\jatekos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Jatekbarlang.cs",
+              "DocumentMoniker": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\Jatekbarlang.cs",
+              "RelativeDocumentMoniker": "KoPapirOllo\\Jatekbarlang.cs",
+              "ToolTip": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\Jatekbarlang.cs",
+              "RelativeToolTip": "KoPapirOllo\\Jatekbarlang.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwCMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T09:48:08.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MaffiaBiro.cs",
+              "DocumentMoniker": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\MaffiaBiro.cs",
+              "RelativeDocumentMoniker": "KoPapirOllo\\MaffiaBiro.cs",
+              "ToolTip": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\MaffiaBiro.cs",
+              "RelativeToolTip": "KoPapirOllo\\MaffiaBiro.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T09:47:13.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Biro.cs",
+              "DocumentMoniker": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\Biro.cs",
+              "RelativeDocumentMoniker": "KoPapirOllo\\Biro.cs",
+              "ToolTip": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\Biro.cs",
+              "RelativeToolTip": "KoPapirOllo\\Biro.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T09:44:00.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FixKinaiJatekos.cs",
+              "DocumentMoniker": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\FixKinaiJatekos.cs",
+              "RelativeDocumentMoniker": "KoPapirOllo\\FixKinaiJatekos.cs",
+              "ToolTip": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\FixKinaiJatekos.cs",
+              "RelativeToolTip": "KoPapirOllo\\FixKinaiJatekos.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T09:42:54.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KinaiJatekos.cs",
+              "DocumentMoniker": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\KinaiJatekos.cs",
+              "RelativeDocumentMoniker": "KoPapirOllo\\KinaiJatekos.cs",
+              "ToolTip": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\KinaiJatekos.cs",
+              "RelativeToolTip": "KoPapirOllo\\KinaiJatekos.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwEAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T09:36:47.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\Program.cs",
+              "RelativeDocumentMoniker": "KoPapirOllo\\Program.cs",
+              "ToolTip": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\Program.cs",
+              "RelativeToolTip": "KoPapirOllo\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T09:32:23.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnumLepes.cs",
+              "DocumentMoniker": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\EnumLepes.cs",
+              "RelativeDocumentMoniker": "KoPapirOllo\\EnumLepes.cs",
+              "ToolTip": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\EnumLepes.cs",
+              "RelativeToolTip": "KoPapirOllo\\EnumLepes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T09:36:08.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Jatekos.cs",
+              "DocumentMoniker": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\Jatekos.cs",
+              "RelativeDocumentMoniker": "KoPapirOllo\\Jatekos.cs",
+              "ToolTip": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\6Absztrakt\\KoPapirOllo\\KoPapirOllo\\Jatekos.cs",
+              "RelativeToolTip": "KoPapirOllo\\Jatekos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T09:32:48.183Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

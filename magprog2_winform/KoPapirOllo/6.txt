@@ -1,0 +1,87 @@
+Tudás: absztrakt osztály, readonly.
+Privát metódusra, property-re nem lehet virtual-t írni. Konstruktor nem lehet absztrakt, mivel virtual sem lehet. Ugyanis a gyerek-osztály nem tudná ugyanazon néven felülírni, mert a gyerekosztálybeli konstruktorok a gyerekosztály nevével egyeznek meg. Mezõ nem lehet absztrakt, mivel a mezõ definiálásakor meg kell adni a mezõ típusát, nevét, nincs olyan jellemzõ, amit ne tudnánk megadni. Destruktor sem lehet absztrakt, a destruktor a Finalize() metódus override-ja. Emiatt a destruktor írása nem kötelezõ. Az absztrakt metódusokat kötelezõ megvalósítani. Ha nem történik meg, akkor nem lehet meghívni sem.
+Jelzi, hogy az osztály nem példányosítható.
+
+
+Egy kínai szerencsejátékkal foglalkozó helyen játékosok játszanak kõ-papír-ollót. A játékosok random mutatnak fel a 3 lehetséges értékbõl egyet, de vannak olyan játékosok, akik mindig ugyanazt mutatják fel (pl. mindig olló-t). A kínai játékosok rizsben játszanak. 3 adag rizs a tét minden játékban. A gyõztesé a rizs, döntetlen esetén mindenki megtarthatja a rizsét. Minden osztály külön fájl legyen! 
+
+Készítsük el a Játékos osztályt az alábbiak szerint:
+- nev mezõ, string. Csak betût és számot tartalmazhat! (Nincs meg!!****)
+- felmutat(), egy enumot ad vissza, mást nem tudunk róla
+- AkarJatszani: bool-t ad vissza.
+
+Készen van, de kulcsszavak hiányoznak!****************
+
+Készítsük el a KínaiJátékos osztályt az alábbiak szerint:
+
+rizsMenny: mezõ, egész szám, mutatja mennyi rizs van a játékosnál
+rizsKezd: rizs mezõ, 0..100, azt mutatja hogy a játékbarlangba belépéskor (kezdetben) mennyi rizs volt nála, csak a konstruktorban kaphat értéket! *********Nincs megírva!******* Mit kell ehhez hozzátenni?
+
+mohosag: egész szám, 2..10, azt mutatja mennyit szeretne nyerni a saját kezdõtõkéjéhez képest, ha pl 3 az értéke, azt jelenti hogy a játékos jó eséllyel abbahagyja a játékot ha a saját kezdeti tõkéjének háromszoros értékét nyerte már meg.
+Nincs rendesen megírva!!************************
+
+nev: string, a játékos neve. Csak az osztályon belül kaphat értéket.**Vagy itt kell alakítani rajta, vagy az absztrakt osztályban!**** Csak osztályon belül kaphat értéket!
+
+
+fv akarJatszani() bool: megadja, hogy a játékos részt kíván-e venni a játékban (nem kíván, ha nincs meg a 3 rizs, illetve ha a mohóságának megfelelõ mennyiségû nyereménnyel rendelkezik)
+fv felmutat() enum: a függvény visszatérési értéke kõ, papír, vagy olló, attól függõen a játékos épp mit mutatott fel
+
+2 konstruktor: 1. paraméterei név és a nyereségvágy *Nincs megírva********************
+2. név, nyerségvágy és a rizs induló mennyisége
+Az utóbbi hívja meg az elsõt, az induló mennyiség 5 legyen!
+
+ToString(): kiírja a játékos nevét, a rizsMenny értékét és a mohóságot (vesszõvel elválasztva).
+
+Írjuk meg a property-ket és a metódusokat!
+Kell még < > operátorok, de csak a végén derül ki!********************
+
+---------------
+Készítsük el a FixKínai játékost, a kínai játékos gyerekosztályát:
+
+fixÉrték enum: mezõ, a fix érték amit a játékos mutat, kiolvasható, de nem módosítható (readonly).
+Az osztály konstruktorában beállítható a fentieken túl a játékos melyik fix értéket mutassa mindig fel ha kérdezik (pl mindig kõ-t mutató játékos)
+(Persze kell az override felmutat, és a saját konstruktora is!)*************** Konstruktorok nincsenek megírva!
+
+
+
+--------------------
+Készítsük el a bíró osztályt az alábbi metódusokkal:
+
+fv lebonyolít( játékos1, játékos2 ): a bíró ellenõrzi mindkét játékosnak van-e 3 rizse a játékhoz, majd lekéri mindkét játékos felmutatását, eldönti ki nyert, és elosztja a rizst (egyiktõl levon, másikhoz hozzáad)
+--------------------
+Készítsük el a maffiaBíró osztályt, a bíró gyerekosztályaként!
+
+Döntetlen esetén a bíró mindkét játékostól 1-1 rizst vesz el, ez a jutaléka. A bíró tartalmaz egy mezõt, amely tárolja, hogy  hány rizst gyûjtött be.
+Készen van!!!
+
+
+--------------------------
+Készítsük el a játékbarlang (konténer) osztályt:
+
+adott mennyiségû kínai játékos (pl 40 db) tartózkodhat épp benn
+adott mennyiségû bíró lehet benn (pl 5 db) (Ezek mezõk!)
+A két lista nincs meg!*************************************
+
+jLista: kínai játékosok listájával (szükséges szokásos függvények: hozzáad, töröl, lekérdez)
+bLista: bírók listájával (hozzáad, töröl, lekérdez)
+fv lebonyolit(): kiválaszt random egy bírót, random két játékost, a bírót megkéri hogy próbálja lebonyolítani a játékot a két játékossal, konzolra írja a történéseket (játékosok neve, mit mutattak fel, a bíró döntése, stb)
+
+indexelõ: egy adott névre visszaadja a játékost! **************Nincs megírva!:-(( Schade. (De csak a get kell most.
+
+---------------------
+Készítsük el a fõprogramot:
+
+példányosít egy játékbarlangot, max. 60 játékossal, max 10 bíróval. Ez nincs meg!************************
+
+Kiírja a max. 60 játékos adatait
+70% eséllyel közönséges, 30% eséllyel fix kínai játékosokat "enged" be a barlangba, összesen 50 darab játékost
+példányosít.
+Random 80% normál, 20% maffia bírót, összesen 8 db-ot példányosít, és berakja a barlangba
+Engedélyez a barlangban 100 játékot
+a végén kiírja, hány játékos ment tönkre (kevesebb mint 3 rizse maradt), hány játékos boldog (elérte a mohóságának megfelelõ nyereséget), és a maffia bírók összesen hány rizst gyûjtöttek be.
+Eddig van meg.
+*************Ezek sincsenek:************
+Bekér egy játékos nevet, majd kiírja, hogy annak mennyi "pénze" maradt! (Ha benne van a játékbarlangban!)
+Bekér egy másik nevet, majd kiírja, hogy melyik játékos a "nagyobb". Az a nagyobb, amelyiknek több pénze van! (Írjuk meg a saját operátort!)
+
+Mi az, ami kimaradt??? Contains - > Equals… De menne, nem???
