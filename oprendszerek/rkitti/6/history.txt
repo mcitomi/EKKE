@@ -1,0 +1,26 @@
+  817  cd frontend/
+  818  l
+  819  npm i
+  820  npm run dev
+  821  sqldeveloper
+  822  ip a
+  823  ping 10.1.74.219
+  824  lsb_release -a
+  825  clear
+  826  ps axu | grep mc
+  827  slay 14216
+  828  killall 14216
+  829  ps axu | grep mc
+  830  killall mc
+  831  ps axu | grep mc
+  832  find / -name *.conf > find-cmd.txt
+  833  find / -name *.conf > find-cmd.txt &
+  834  find / -name *.conf 2>/dev/null > find-cmd.txt &
+  835  df
+  836  df > free.txt
+  837  cat free.txt 
+  838  history > history.txt
+  839  cat history.txt 
+  840  clear
+  841  l
+  842  history | tail -n 15 > history.txt
