@@ -5,31 +5,47 @@ namespace Gepkocsik
 
     public partial class Form1 : Form
     {
-        private BindingList<Gepkocsi> lista = new BindingList<Gepkocsi>();
+        private Kereskedes keri = new Kereskedes();
 
         public Form1()
         {
             InitializeComponent();
-            dgv.DataSource = lista;
+            dgv.DataSource = keri.gepkocsik;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            lista.Clear();
+            keri.gepkocsik.Clear();
             StreamReader sr = new("Gepkocsik.csv");
+
+            // 0.mező G v. SZ. -> milyen típusú a rekord
 
             while (!sr.EndOfStream)
             {
                 string[] line = sr.ReadLine().Split(';');
 
-                lista.Add(new Gepkocsi(
-                    line[0],
-                    int.Parse(line[1]),
-                    int.Parse(line[2]),
-                    int.Parse(line[3]),
-                    int.Parse(line[4]),
-                    (AllapotEnum)Enum.Parse(typeof(AllapotEnum), line[5])
-                ));
+                if (line[0] == "G")
+                {
+                    keri.AddKocsi(new Gepkocsi(
+                        line[1],
+                        int.Parse(line[2]),
+                        int.Parse(line[3]),
+                        (AllapotEnum)AllapotEnum.Parse(typeof(AllapotEnum), line[4])
+                    ));
+                    
+                }
+                else
+                {
+                    keri.AddKocsi(new SzemelygepKocsi(
+                        line[1],
+                        int.Parse(line[2]),
+                        int.Parse(line[3]),
+                        (AllapotEnum)AllapotEnum.Parse(typeof(AllapotEnum), line[4]),
+                        int.Parse(line[5]),
+                        bool.Parse(line[6]),
+                        (KlimaTipus)KlimaTipus.Parse(typeof(KlimaTipus), line[7])
+                        ));
+                }
             }
 
             sr.Close();
@@ -43,7 +59,7 @@ namespace Gepkocsik
 
             if (f.ShowDialog() == DialogResult.OK)
             {
-                lista.Add(f.UjAuto);
+                keri.AddKocsi(f.UjAuto);
             }
         }
     }

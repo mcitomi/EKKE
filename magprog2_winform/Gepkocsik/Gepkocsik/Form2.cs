@@ -72,8 +72,6 @@ namespace Gepkocsik
                     txtRendszam.Text,
                     int.Parse(txtEvjarat.Text),
                     int.Parse(txtAr.Text),
-                    int.Parse(txtKor.Text),
-                    int.Parse(txtExtra.Text),
                     (AllapotEnum)cmbAllapot.SelectedItem
                 );
 

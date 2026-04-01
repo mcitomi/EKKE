@@ -10,11 +10,12 @@ namespace Gepkocsik
     public class Gepkocsi
     {
         private string rendszam;
-        public string Rendszam { 
-            get { return rendszam;}
+        public string Rendszam
+        {
+            get { return rendszam; }
             private set
             {
-                if(string.IsNullOrEmpty(value))
+                if (string.IsNullOrEmpty(value))
                 {
                     throw new ArgumentException("Nem lehet üres rendszám");
                 }
@@ -23,12 +24,12 @@ namespace Gepkocsik
 
                 Regex regex = new Regex(pattern);
 
-                if(!regex.IsMatch(value))
+                if (!regex.IsMatch(value))
                 {
                     throw new Exception("A rendszám nem megfelelő");
                 }
 
-                if (value[0] == '0' && value[5] == '0' && value[6] ==  '0')
+                if (value[0] == '0' && value[5] == '0' && value[6] == '0')
                 {
                     throw new Exception("Nem lehet csupa 0 a rendszám");
                 }
@@ -36,13 +37,14 @@ namespace Gepkocsik
                 rendszam = value;
             }
         }
-        
+
         int _evjarat;
-        public int Evjarat { 
+        public int Evjarat
+        {
             get { return _evjarat; }
             set
             {
-                if(value < 1950 || value > 2022)
+                if (value < 1950 || value > 2022)
                 {
                     throw new ArgumentException("Nem valós intervallum");
                 }
@@ -53,19 +55,20 @@ namespace Gepkocsik
 
         int _eredetiAr;
         bool isEdited = false;
-        public int EredetiAr { 
+        public int EredetiAr
+        {
             get
             {
                 return _eredetiAr;
             }
             set
             {
-                if(value < 300_000 || value > 12_000_000)
+                if (value < 300_000 || value > 12_000_000)
                 {
                     throw new Exception("Nem megfelelő értékű az ár");
                 }
 
-                if(isEdited)
+                if (isEdited)
                 {
                     throw new Exception("Az eredeti ár csak 1x adható meg");
                 }
@@ -76,7 +79,8 @@ namespace Gepkocsik
         }
 
         int _kor;
-        public int Kor { 
+        public int Kor
+        {
             get
             {
                 return DateTime.Now.Year - Evjarat;
@@ -84,7 +88,8 @@ namespace Gepkocsik
         }
 
         int _extraar;
-        public virtual int Extraar {
+        public virtual int Extraar
+        {
             get
             {
                 if (Kor <= 2 && Allapot == AllapotEnum.Ujszeru)
@@ -109,6 +114,50 @@ namespace Gepkocsik
         public Gepkocsi(string r, int e, int ar) : this(r, e, ar, AllapotEnum.Megkimelt)
         {
 
+        }
+
+        public virtual int Vetelar()
+        {
+            float amortizacio = 0;
+
+            if (Allapot == AllapotEnum.Ujszeru)
+            {
+                amortizacio = 0.09f;
+            }
+            if (Allapot == AllapotEnum.Megkimelt)
+            {
+                amortizacio = 0.1f;
+            }
+            if (Allapot == AllapotEnum.Serult)
+            {
+                amortizacio = 0.11f;
+            }
+            if (Allapot == AllapotEnum.Hibas)
+            {
+                amortizacio = 0.12f;
+            }
+
+            return (int)(EredetiAr * Math.Pow(amortizacio, Kor)) + Extraar;
+
+        }
+
+        public override string ToString()
+        {
+            return $"{Rendszam} - {Evjarat} - {EredetiAr} Ft - {Allapot} - {Kor} - {Extraar} Ft - {Vetelar()} Ft";
+        }
+
+        public override bool Equals(object obj)
+        {
+            // Akkor egyenlo ha a rendszeamuk ugyan az
+
+            if(obj is not Gepkocsi || obj == null)
+            {
+                return false;
+            }
+
+            Gepkocsi other = obj as Gepkocsi;
+
+            return this.Rendszam == other.Rendszam;
         }
     }
 }
