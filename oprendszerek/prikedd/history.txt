@@ -1,0 +1,73 @@
+    1  sudo apt install vlc
+    2  alias c = 'clear'
+    3  unalias c
+    4  alias c='clear'
+    5  c
+    6  unalias c
+    7  c
+    8  mkdir -p Mentes/Regi/Dokumentumok
+    9  ls
+   10  cd Mentes/
+   11  l
+   12  cd Regi/
+   13  l
+   14  cd Dokumentumok/
+   15  l
+   16  fip
+   17  cd ~
+   18  cd Documents/EKKE/oprendszerek/ptikedd/
+   19  cd ~/Documents/EKKE/oprendszerek/
+   20  cd ptikedd/
+   21  touch fip.txt
+   22  l
+   23  rm fip.txt 
+   24  rm -r ./Mentes/
+   25  l
+   26  pwgen
+   27  tree
+   28  touch gyak.txt
+   29  nano gyak.txt 
+   30  l
+   31  cat gyak.txt 
+   32  tac gyak.txt 
+   33  nano gyak.txt 
+   34  ls -l
+   35  cd ..
+   36  ls -l
+   37  echo "Könyvtárhoz kell az execute jog ha meg akarjuk nyitni"
+   38  chmod 640 prikedd/
+   39  ls -l
+   40  cd prikedd/
+   41  chmod 740 prikedd/
+   42  cd prikedd/
+   43  l
+   44  nano gyak.txt
+   45  l
+   46  chmod 640 gyak.txt 
+   47  ls -l
+   48  chmod u+x gyak.txt 
+   49  ls -l
+   50  ls -l > irany.txt
+   51  cat it
+   52  cat irany.txt 
+   53  less etc/pass
+   54  less etc/passwd
+   55  less /etc/passwd
+   56  ps aux
+   57  l
+   58  touch zhgyak.txt
+   59  nano zhgyak.txt 
+   60  gzip zhgyak.txt 
+   61  l
+   62  gunzip zhgyak.txt.gz 
+   63  l
+   64  rm zhgyak.txt 
+   65  l
+   66  gunzip zhgyak.txt.gz 
+   67  echo "A" > elso.txt
+   68  echo "B" > maso.txt
+   69  l
+   70  ls -l
+   71  diff elso.txt maso.txt 
+   72  clear
+   73  history > history.txt
