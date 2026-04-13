@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\EKKE\\magprog1\\AllatokInterface2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1DA02B20-1640-4FD7-A61F-1241A16FE852}|AllatokInterface2\\AllatokInterface2.csproj|h:\\ekke\\magprog1\\allatokinterface2\\allatokinterface2\\iallatok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DA02B20-1640-4FD7-A61F-1241A16FE852}|AllatokInterface2\\AllatokInterface2.csproj|solutionrelative:allatokinterface2\\iallatok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IAllatok.cs",
+              "DocumentMoniker": "H:\\EKKE\\magprog1\\AllatokInterface2\\AllatokInterface2\\IAllatok.cs",
+              "RelativeDocumentMoniker": "AllatokInterface2\\IAllatok.cs",
+              "ToolTip": "H:\\EKKE\\magprog1\\AllatokInterface2\\AllatokInterface2\\IAllatok.cs",
+              "RelativeToolTip": "AllatokInterface2\\IAllatok.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T16:41:07.159Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

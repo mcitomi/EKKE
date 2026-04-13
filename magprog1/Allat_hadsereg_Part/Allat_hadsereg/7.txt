@@ -1,0 +1,70 @@
+1. Tudás: as kulcsszó.
+Virtuális metódus.
+VS nélkül kell megoldani:
+magasszintu2/kiszha.docx
+
+2. abstract metódus vs. üres metódus vs. virtual metódus - 06_CoffeeMachine.zip
+3. Interface - külön projektben, dll. (Class Library) Build. Add Projekt reference Browse. Lásd Assemblies
+
+Gyakorlati feladat
+A hadsereg különböző szárnyas állatkák kiképzőbázisát működteti a Cheyenne hegység alatti titkos alagutakban. Az állatkák kemény sporttevékenységet űznek. Aki nem bírja, az kikerül a bázisról. A legjobbakat átvesszi a Mission Impossible Force alakulat. Az állatkák futnak, úsznak, repülnek. Kevés ételt és italt kapnak ehhez. A különböző állatkák más-más módon bírják az úszás, futás, egyéb tevékenységeket, attól függően, hogy milyen a testalkatuk. Minden állat képes valamennyi kaját és vizet raktározni a testében, melyet a sporttevékenységek során elhasznál. Ha ez nullára elfogy, akkor az állatka elájul, nem bírja a kiképzést.
+
+IAllat interface:
+
+    eszik(mennyiseg): az állatka eszik valamennyit, a mennyiség tört érték is lehet,
+    iszik(mennyiseg): hasonló az eszik-hez
+    uszik(km): az állatkát arra utasítja az őrmester, hogy ússzon adott km-nyi távot le
+    fut(km): futni kell
+    repul(km): repülni kell
+
+Allatka osztály:
+
+    tárolt kaja mező: tört érték, 0.0 -tól 100.0 -ig,
+    tárolt víz mező:tört érték, 0.0 -tól 100.0 -ig,
+    elájult mező: bool I/N
+    tartalmaz egy, az interface-ben leírt eszik függvényt, mellyel maximum 100.0 -ig képes növelni a tárolt kaja mennyiségét (azaz implementálja az interface metódusát)
+    hasonlóan az iszik függvényt is tartalmazza, hasonlóan maximum 100.0 -ig növeli a tárolt vizet
+    konstruktor a kezdőértékekkel
+    tartalmaz egy ToString() metódust is, amely kiírja, hogy mennyi vize és élelme van. És az osztály típusát (nevét) is!
+
+Kacsa osztály: őse az állatka, és implementálja az IAllat interface-t az alábbiak szerint:
+
+    a kacsa jól tud úszni, így 1Km táv úszása 1 egységnyi kaját fogyaszt, s mivel bármilyen vizet megiszik, így 1 km úszás során maximum 5 egységnyi vizet is pótol sunyiban
+    a kacsa nem jól repül, 1 Km repülés 5 egységnyi kaja és 4 egységnyi vízbe kerül
+    a kacsa nem is fut jól, 1 Km futás 7 egységnyi kaja és 5 egységnyi víz
+
+Róka osztály: őse az állatka, és implementálja az IAllat interface-t az alábbiak szerint:
+
+    a róka nem úszik jól, 1 Km táv 6 egység kaja, 2 egység víz
+    a róka nem tud repülni, semmilyen repülési utasításra nem reagál
+    a róka jól fut, 1 Km táv 1 egységnyi kaja és 1 egység víz
+
+Sas osztály: őse az állatka, és implementálja az IAllat interface-t az alábbiak szerint:
+
+    a sas nem tud úszni, nem reagál az úszási utasításokra
+    a sas kiválóan repül, 1 Km táv 0.5 egység kaja, 0.5 egység víz
+    a sas rosszul fut, 1 km táv 5 egység kaja, 3 egység víz
+
+Kiképzőtábor konténer osztály
+
+    állatok listája, melyen szerepelhetnek a fenti típusú állatok
+    fv hozzáad, paramétere valamely állat a fentiek közül
+    fv töröl, paramétere valamely állat
+    fv etetés, paramétere egy adag kaja, a függvény minden állatnak ad enni, egyenlően elosztva a kapott kajamennyiséget közöttük
+    fv itatás, paramétere egy adag víz, a függvény minden állatnak ad inni, egyenlően elosztva a kapott kajamennyiséget közöttük
+    fv futás, paramétere a km érték, a függvény minden állatot elküld futni az adott távra, majd ellenőrzi, valaki elájult-e. Az ájultakat kiveszi a listából.
+    hasonlóan a futáshoz, legyen úszás és repülés függvény is.
+    túlélők száma property, a kiképzésben még bene lévő állatkák száma,
+    túlélők property, a kiképzést túlélő állatkák listáját adja meg.
+
+Főprogram
+
+    példányosít egy kiképzőtábort, és random állatkákat ad hozzá a három típusból, összesen (N=) 100-at
+    egy ciklusban az alábbiakat teszi:
+        random választ hogy mely tevékenységet végezze (etetés, itatás, futtatás, úszás, repülés)
+        ha etetés, akkor random mennyiségű kaját ad enni, az életben lévőek számától függően, fejenként kb 20-40 egységet (random)
+        itatás hasonlóan
+        futás, úszás, repülés, random távra, 10-30 Km távok
+        ha már nincs a kiképzésben senki, akkor leáll
+        ha a kiképzésben már kevesebb mint 20 állat van, akkor leáll 
+    kiírja melyik típusú állatból hány darab maradt meg a kiképzésben, és azt is, hogy kik (típus és mennyi víz + élelem maradt.)
