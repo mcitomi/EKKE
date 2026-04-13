@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\gunics\\roland\\H007\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59A35836-CAD9-4FB6-8E83-1D39A1FCB80B}|P001\\P001.csproj|c:\\gunics\\roland\\h007\\p001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A35836-CAD9-4FB6-8E83-1D39A1FCB80B}|P001\\P001.csproj|solutionrelative:p001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A35836-CAD9-4FB6-8E83-1D39A1FCB80B}|P001\\P001.csproj|c:\\gunics\\roland\\h007\\p001\\allatbolt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A35836-CAD9-4FB6-8E83-1D39A1FCB80B}|P001\\P001.csproj|solutionrelative:p001\\allatbolt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A35836-CAD9-4FB6-8E83-1D39A1FCB80B}|P001\\P001.csproj|c:\\gunics\\roland\\h007\\p001\\allatok.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{59A35836-CAD9-4FB6-8E83-1D39A1FCB80B}|P001\\P001.csproj|solutionrelative:p001\\allatok.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A35836-CAD9-4FB6-8E83-1D39A1FCB80B}|P001\\P001.csproj|c:\\gunics\\roland\\h007\\p001\\p001.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{59A35836-CAD9-4FB6-8E83-1D39A1FCB80B}|P001\\P001.csproj|solutionrelative:p001\\p001.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A35836-CAD9-4FB6-8E83-1D39A1FCB80B}|P001\\P001.csproj|c:\\gunics\\roland\\h007\\p001\\farmallat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A35836-CAD9-4FB6-8E83-1D39A1FCB80B}|P001\\P001.csproj|solutionrelative:p001\\farmallat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A35836-CAD9-4FB6-8E83-1D39A1FCB80B}|P001\\P001.csproj|c:\\gunics\\roland\\h007\\p001\\allat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A35836-CAD9-4FB6-8E83-1D39A1FCB80B}|P001\\P001.csproj|solutionrelative:p001\\allat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A35836-CAD9-4FB6-8E83-1D39A1FCB80B}|P001\\P001.csproj|c:\\gunics\\roland\\h007\\p001\\faj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59A35836-CAD9-4FB6-8E83-1D39A1FCB80B}|P001\\P001.csproj|solutionrelative:p001\\faj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "allatok.csv",
+              "DocumentMoniker": "C:\\gunics\\roland\\H007\\P001\\allatok.csv",
+              "RelativeDocumentMoniker": "P001\\allatok.csv",
+              "ToolTip": "C:\\gunics\\roland\\H007\\P001\\allatok.csv",
+              "RelativeToolTip": "P001\\allatok.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2026-04-08T14:42:01.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "P001",
+              "DocumentMoniker": "C:\\gunics\\roland\\H007\\P001\\P001.csproj",
+              "RelativeDocumentMoniker": "P001\\P001.csproj",
+              "ToolTip": "C:\\gunics\\roland\\H007\\P001\\P001.csproj",
+              "RelativeToolTip": "P001\\P001.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-08T13:34:45.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AllatBolt.cs",
+              "DocumentMoniker": "C:\\gunics\\roland\\H007\\P001\\AllatBolt.cs",
+              "RelativeDocumentMoniker": "P001\\AllatBolt.cs",
+              "ToolTip": "C:\\gunics\\roland\\H007\\P001\\AllatBolt.cs",
+              "RelativeToolTip": "P001\\AllatBolt.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T14:17:11.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FarmAllat.cs",
+              "DocumentMoniker": "C:\\gunics\\roland\\H007\\P001\\FarmAllat.cs",
+              "RelativeDocumentMoniker": "P001\\FarmAllat.cs",
+              "ToolTip": "C:\\gunics\\roland\\H007\\P001\\FarmAllat.cs",
+              "RelativeToolTip": "P001\\FarmAllat.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T14:06:54.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Faj.cs",
+              "DocumentMoniker": "C:\\gunics\\roland\\H007\\P001\\Faj.cs",
+              "RelativeDocumentMoniker": "P001\\Faj.cs",
+              "ToolTip": "C:\\gunics\\roland\\H007\\P001\\Faj.cs",
+              "RelativeToolTip": "P001\\Faj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:50:21.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Allat.cs",
+              "DocumentMoniker": "C:\\gunics\\roland\\H007\\P001\\Allat.cs",
+              "RelativeDocumentMoniker": "P001\\Allat.cs",
+              "ToolTip": "C:\\gunics\\roland\\H007\\P001\\Allat.cs",
+              "RelativeToolTip": "P001\\Allat.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAcwJcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:34:52.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\gunics\\roland\\H007\\P001\\Program.cs",
+              "RelativeDocumentMoniker": "P001\\Program.cs",
+              "ToolTip": "C:\\gunics\\roland\\H007\\P001\\Program.cs",
+              "RelativeToolTip": "P001\\Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwEAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:34:34.877Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
