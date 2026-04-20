@@ -3,9 +3,15 @@ using System;
 
 namespace Allatok
 {
+    class MyArgumentInterval : ArgumentException
+    {
+        public MyArgumentInterval(string msg) : base(msg)
+        {
 
-   
-    class Allatka 
+        }
+    }
+
+    class Allatka : IAllatosUj.IAllatokUj
     {
         protected double tarolt_kaja;
         public double Tarolt_kaja
@@ -13,9 +19,35 @@ namespace Allatok
             get { return tarolt_kaja; }
             set
             {
-                if (value < 0.0 || value > 100.0)
-                    throw new ArgumentException("Csak 0.0-100.0-ig");
-                tarolt_kaja = value;
+                try
+                {
+                    if (value < 0.00)
+                    {
+                        throw new MyArgumentInterval("Nem lehet negatív!");
+                    }
+                }
+                catch (MyArgumentInterval e)
+                {
+                    tarolt_kaja = 0;
+                }
+
+                try
+                {
+                    if (value > 100.0)
+                    {
+                        throw new MyArgumentInterval("Nem lehet > 100");
+                    }
+                }
+                catch (MyArgumentInterval e)
+                {
+                    tarolt_kaja = 100;
+                }
+                finally
+                {
+
+                    tarolt_kaja = value;
+                }
+
             }
         }
         protected double tarolt_viz;
@@ -25,7 +57,7 @@ namespace Allatok
             set
             {
                 if (value < 0.0 || value > 100.0)
-                    throw new ArgumentException("Csak 0.0-100.0-ig");
+                    throw new MyArgumentInterval("Csak 0.0-100.0-ig");
                 tarolt_viz = value;
             }
         }
@@ -43,7 +75,7 @@ namespace Allatok
         public void Iszik(double mennyiseg)
         {
             if (elajult) return;
-            this.Tarolt_viz =Math.Min(Tarolt_viz+mennyiseg,100);
+            this.Tarolt_viz = Math.Min(Tarolt_viz + mennyiseg, 100);
         }
         public void Fogyaszt(double kaja, double viz, double km)
         {
@@ -52,15 +84,29 @@ namespace Allatok
                 elajult = true;
             }
             if (elajult) return;
-            Tarolt_kaja -= (kaja*km);
-            Tarolt_viz -= (viz*km);
+            Tarolt_kaja -= (kaja * km);
+            Tarolt_viz -= (viz * km);
         }
-       
+
         public override string ToString()
         {
-            return $"{GetType().Name}-{Tarolt_viz} vize és {Tarolt_kaja} kajája van";
+            return $"{GetType().Name}-{Tarolt_viz} vize és {Tarolt_kaja} kajája van"; // GetType -> Típus nevét le tudjuk kérni, hogy milyen osztályrol van szo.
         }
-      
+
+        public virtual void Repul(double km)
+        {
+
+        }
+
+        public virtual void Uszik(double km)
+        {
+
+        }
+
+        public virtual void Fut(double km)
+        {
+
+        }
 
     }
 }

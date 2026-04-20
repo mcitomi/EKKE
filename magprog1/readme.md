@@ -1,4 +1,5 @@
-# =)
+# HF: 7uj.txt be kellene fejezni
+# HF: 7uj.txt be kellene fejezni
 ## Debug:
 `ctrl + f10`
 

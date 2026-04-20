@@ -1,4 +1,4 @@
-﻿using AllatInterface;
+﻿using IAllatosUj;
 using System;
 using System.Security.Cryptography;
 

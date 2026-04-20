@@ -1,0 +1,4 @@
+Saját kivétel osztály. Kivetel.zip
+Interface-ben implementált metódus. InterfaceTeszt.zip
+Kiképzőtábor feladat, benne saját kivételosztállyal. 7uj.txt
+

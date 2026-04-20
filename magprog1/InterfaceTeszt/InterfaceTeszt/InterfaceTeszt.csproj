@@ -7,10 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Reference Include="IAllatosUj">
-      <HintPath>..\..\..\IAllatosUj\IAllatosUj\bin\Debug\net8.0\IAllatosUj.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>

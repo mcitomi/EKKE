@@ -1,9 +1,9 @@
-﻿using AllatInterface;
+﻿
 using System;
 
 namespace Allatok
 {
-    class Roka
+    class Roka : Allatka, IAllatosUj.IAllatokUj
     {
         public override void Uszik(double km)
         {
