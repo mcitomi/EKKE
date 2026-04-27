@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\9Enumerable_Delegate_Lambda\\LINQfeladatok\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9059E35-83B3-45CD-811F-28BE6EEEE640}|LINQfeladatok\\LINQfeladatok.csproj|c:\\!ksanyi\\ekke\\magaszintu2\\2026\\9enumerable_delegate_lambda\\linqfeladatok\\linqfeladatok\\missingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9059E35-83B3-45CD-811F-28BE6EEEE640}|LINQfeladatok\\LINQfeladatok.csproj|solutionrelative:linqfeladatok\\missingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9059E35-83B3-45CD-811F-28BE6EEEE640}|LINQfeladatok\\LINQfeladatok.csproj|c:\\!ksanyi\\ekke\\magaszintu2\\2026\\9enumerable_delegate_lambda\\linqfeladatok\\linqfeladatok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9059E35-83B3-45CD-811F-28BE6EEEE640}|LINQfeladatok\\LINQfeladatok.csproj|solutionrelative:linqfeladatok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MissingItem.cs",
+              "DocumentMoniker": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\9Enumerable_Delegate_Lambda\\LINQfeladatok\\LINQfeladatok\\MissingItem.cs",
+              "RelativeDocumentMoniker": "LINQfeladatok\\MissingItem.cs",
+              "ToolTip": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\9Enumerable_Delegate_Lambda\\LINQfeladatok\\LINQfeladatok\\MissingItem.cs",
+              "RelativeToolTip": "LINQfeladatok\\MissingItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T07:10:45.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\9Enumerable_Delegate_Lambda\\LINQfeladatok\\LINQfeladatok\\Program.cs",
+              "RelativeDocumentMoniker": "LINQfeladatok\\Program.cs",
+              "ToolTip": "C:\\!KSanyi\\EKKE\\magaszintu2\\2026\\9Enumerable_Delegate_Lambda\\LINQfeladatok\\LINQfeladatok\\Program.cs",
+              "RelativeToolTip": "LINQfeladatok\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAYwE0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T16:42:41.948Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

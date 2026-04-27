@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\EKKE\\magprog1\\LINQfeladatok\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9059E35-83B3-45CD-811F-28BE6EEEE640}|LINQfeladatok\\LINQfeladatok.csproj|h:\\ekke\\magprog1\\linqfeladatok\\linqfeladatok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9059E35-83B3-45CD-811F-28BE6EEEE640}|LINQfeladatok\\LINQfeladatok.csproj|solutionrelative:linqfeladatok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9059E35-83B3-45CD-811F-28BE6EEEE640}|LINQfeladatok\\LINQfeladatok.csproj|h:\\ekke\\magprog1\\linqfeladatok\\linqfeladatok\\missingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9059E35-83B3-45CD-811F-28BE6EEEE640}|LINQfeladatok\\LINQfeladatok.csproj|solutionrelative:linqfeladatok\\missingitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MissingItem.cs",
+              "DocumentMoniker": "H:\\EKKE\\magprog1\\LINQfeladatok\\LINQfeladatok\\MissingItem.cs",
+              "RelativeDocumentMoniker": "LINQfeladatok\\MissingItem.cs",
+              "ToolTip": "H:\\EKKE\\magprog1\\LINQfeladatok\\LINQfeladatok\\MissingItem.cs",
+              "RelativeToolTip": "LINQfeladatok\\MissingItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T15:50:39.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\EKKE\\magprog1\\LINQfeladatok\\LINQfeladatok\\Program.cs",
+              "RelativeDocumentMoniker": "LINQfeladatok\\Program.cs",
+              "ToolTip": "H:\\EKKE\\magprog1\\LINQfeladatok\\LINQfeladatok\\Program.cs",
+              "RelativeToolTip": "LINQfeladatok\\Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAE0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T15:50:39.438Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
