@@ -9,6 +9,7 @@ https://tinyurl.com/kadam-share
 - [algo1 5. alkalom rolanddal](https://colab.research.google.com/drive/19A7Bg7P9VtZhwfhIf7ip9FNSl9GloU3l?usp=sharing)
 - [algo1 6. alkalom rolanddal](https://colab.research.google.com/drive/1auEyo4ir-lbl8Vx1Ceesz-LJYk3-z_kR?usp=sharing)
 - [algo1 Hasítótáblák](https://colab.research.google.com/drive/1MrLFEIHV7sgVqDjwwcmBmydU2aZ9gJMy?usp=sharing)
+- [algo1 kadam bubbloesort stb](https://colab.research.google.com/drive/1Od_FEVbdp51mV9vm2wLk6c4sUQ3m6aAF?usp=sharing)
 
 ## II zh papiron lesz:
 keresés
