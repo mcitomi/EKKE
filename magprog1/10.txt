@@ -1,0 +1,39 @@
+1. DelegateAlapok.zip
+Ez egy solution, de benne 4 projekt
+
+2. Gyakorlás
+Készítsen egy egyszerű Movie Library rendszert!
+
+Movie osztály
+Egy filmnek az alábbi mezői vannak:
+
+Title (string): 
+Director (string): 
+Year (int): 
+Rating (double, 0–10)
+
+Írjon property-ket validációval:
+cím: nem lehet üres
+év: 1900–aktuális év
+rating: 0–10 között
+
+MovieLibrary a konténerosztály. 
+Tárolja a filmeket egy List<Movie>-ben, valamint legyen egy Add(Movie m) metódusa
+
+A MovieLibrary:
+
+- implementálja az IEnumerable<Movie>-t
+
+- de NEM az összes filmet adja vissza, hanem csak azokat, ahol a rating >= 7. Használjon yield return-t!
+
+Készítsen egy delegate-et, melynek neve MovieFilter. Olyan függvények referenciáját tudja tárolni, amelyek át tudnak venni
+egy Movie referenciát, a visszatérési értékük bool. 
+
+Írjon egy egy metódust, melynek a paramétere MovieFilter, Movie-k listáját adja vissza!
+
+Ez visszaadja a feltételnek megfelelő filmeket.
+
+Főprogram
+- létrehoz 5–6 filmet, hozzáadja a library-hez, majd
+foreach használatával kiírja a jó filmeket (IEnumerable miatt)
+delegate → pl: 2000 utáni filmek, adott rendező filmjei.
