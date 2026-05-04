@@ -66,7 +66,15 @@ DELETE FROM KONYVTAR.kolcsonzes WHERE FLOOR(MONTHS_BETWEEN(sysdate, kolcsonzzes.
 -- Csökkentsd azoknak a tagoknak a tagsági díját 500 Ft-tal, akiknek díja meghaladja a 2000 Ft-ot
 UPDATE KONYVTAR.tag SET tag.tagdij = (tag.tagdij - 500) WHERE tag.tagdij > 2000; 
 
+-- !!!! Klónozás
+CREATE TABLE konyv as (
+SELECT *
+FROM KONYVTAR.konyv);
+-- !!!! Klónozás
 
+-- Majd törlés
+
+DROP TABLE konyv;
 
 
 
