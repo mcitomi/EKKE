@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|c:\\gunics\\roland\\zh2 - input\\zh2 - input\\classlibrary1\\classes\\kuldemeny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|solutionrelative:classlibrary1\\classes\\kuldemeny.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|c:\\gunics\\roland\\zh2 - input\\zh2 - input\\classlibrary1\\classes\\kuldemenyalap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|solutionrelative:classlibrary1\\classes\\kuldemenyalap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|c:\\gunics\\roland\\zh2 - input\\zh2 - input\\classlibrary1\\classes\\cim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|solutionrelative:classlibrary1\\classes\\cim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|c:\\gunics\\roland\\zh2 - input\\zh2 - input\\classlibrary1\\enum\\biztositastipus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|solutionrelative:classlibrary1\\enum\\biztositastipus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|c:\\gunics\\roland\\zh2 - input\\zh2 - input\\classlibrary1\\exceptions\\tomegalacsonyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|solutionrelative:classlibrary1\\exceptions\\tomegalacsonyexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|c:\\gunics\\roland\\zh2 - input\\zh2 - input\\classlibrary1\\exceptions\\nemtalalhatoorszagkodexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|solutionrelative:classlibrary1\\exceptions\\nemtalalhatoorszagkodexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|c:\\gunics\\roland\\zh2 - input\\zh2 - input\\classlibrary1\\interface\\ibiztositas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|solutionrelative:classlibrary1\\interface\\ibiztositas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C13E7CD-ECFE-4C52-87E0-62DFDEE9C9C7}|ZH2 - Input\\ZH2 - Input.csproj|c:\\gunics\\roland\\zh2 - input\\zh2 - input\\zh2 - input\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C13E7CD-ECFE-4C52-87E0-62DFDEE9C9C7}|ZH2 - Input\\ZH2 - Input.csproj|solutionrelative:zh2 - input\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2C1604E-E914-433B-BF9B-9C2457C65989}|TesztDll\\TesztDll.csproj|c:\\gunics\\roland\\zh2 - input\\zh2 - input\\tesztdll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2C1604E-E914-433B-BF9B-9C2457C65989}|TesztDll\\TesztDll.csproj|solutionrelative:tesztdll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|c:\\gunics\\roland\\zh2 - input\\zh2 - input\\classlibrary1\\szallitodll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C651CC53-46D7-4F98-A21C-CE06FA23A852}|ClassLibrary1\\szallitoDll.csproj|solutionrelative:classlibrary1\\szallitodll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TomegAlacsonyException.cs",
+              "DocumentMoniker": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\Exceptions\\TomegAlacsonyException.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Exceptions\\TomegAlacsonyException.cs",
+              "ToolTip": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\Exceptions\\TomegAlacsonyException.cs",
+              "RelativeToolTip": "ClassLibrary1\\Exceptions\\TomegAlacsonyException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T13:15:14.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Kuldemeny.cs",
+              "DocumentMoniker": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\Classes\\Kuldemeny.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Classes\\Kuldemeny.cs",
+              "ToolTip": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\Classes\\Kuldemeny.cs*",
+              "RelativeToolTip": "ClassLibrary1\\Classes\\Kuldemeny.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T13:14:11.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "szallitoDll.csproj",
+              "DocumentMoniker": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\szallitoDll.csproj",
+              "RelativeDocumentMoniker": "ClassLibrary1\\szallitoDll.csproj",
+              "ToolTip": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\szallitoDll.csproj",
+              "RelativeToolTip": "ClassLibrary1\\szallitoDll.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-22T14:46:51.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\TesztDll\\Class1.cs",
+              "RelativeDocumentMoniker": "TesztDll\\Class1.cs",
+              "ToolTip": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\TesztDll\\Class1.cs",
+              "RelativeToolTip": "TesztDll\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T14:41:52.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NemTalalhatoOrszagKodException.cs",
+              "DocumentMoniker": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\Exceptions\\NemTalalhatoOrszagKodException.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Exceptions\\NemTalalhatoOrszagKodException.cs",
+              "ToolTip": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\Exceptions\\NemTalalhatoOrszagKodException.cs",
+              "RelativeToolTip": "ClassLibrary1\\Exceptions\\NemTalalhatoOrszagKodException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T14:12:23.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KuldemenyAlap.cs",
+              "DocumentMoniker": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\Classes\\KuldemenyAlap.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Classes\\KuldemenyAlap.cs",
+              "ToolTip": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\Classes\\KuldemenyAlap.cs*",
+              "RelativeToolTip": "ClassLibrary1\\Classes\\KuldemenyAlap.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T14:10:59.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cim.cs",
+              "DocumentMoniker": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\Classes\\Cim.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Classes\\Cim.cs",
+              "ToolTip": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\Classes\\Cim.cs",
+              "RelativeToolTip": "ClassLibrary1\\Classes\\Cim.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T14:00:40.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BiztositasTipus.cs",
+              "DocumentMoniker": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\Enum\\BiztositasTipus.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Enum\\BiztositasTipus.cs",
+              "ToolTip": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\Enum\\BiztositasTipus.cs",
+              "RelativeToolTip": "ClassLibrary1\\Enum\\BiztositasTipus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:58:48.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBiztositas.cs",
+              "DocumentMoniker": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\Interface\\IBiztositas.cs",
+              "RelativeDocumentMoniker": "ClassLibrary1\\Interface\\IBiztositas.cs",
+              "ToolTip": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ClassLibrary1\\Interface\\IBiztositas.cs",
+              "RelativeToolTip": "ClassLibrary1\\Interface\\IBiztositas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:57:21.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ZH2 - Input\\Program.cs",
+              "RelativeDocumentMoniker": "ZH2 - Input\\Program.cs",
+              "ToolTip": "C:\\gunics\\roland\\ZH2 - Input\\ZH2 - Input\\ZH2 - Input\\Program.cs",
+              "RelativeToolTip": "ZH2 - Input\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:47:23.324Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
