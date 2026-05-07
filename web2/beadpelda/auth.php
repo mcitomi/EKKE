@@ -24,12 +24,11 @@ function CheckAdmin(): void {
 }
 
 function Logout(): void {
-    unset($_SESSION['u_id']);
-    unset($_SESSION['username']);
-    unset($_SESSION['is_admin']);
+    $_SESSION = [];
+
+    session_destroy();
+    
     header("Location: login.php");
     exit;
 }
-?>
-
 ?>

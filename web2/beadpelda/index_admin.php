@@ -4,6 +4,10 @@ require_once("db.php");
 
 CheckLogged();
 CheckAdmin();
+
+if ($_SERVER["REQUEST_METHOD"] === "POST" && ($_POST["action"] ?? "") === "logout") {
+    Logout();
+}
 ?>
 
 <!DOCTYPE html>
@@ -17,5 +21,9 @@ CheckAdmin();
     <h1>Üdv <?= $_SESSION['username'] ?></h1>
     <p>Admin panel</p>
     
+    <form method="post" class="m-0">
+        <input type="hidden" name="action" value="logout">
+        <button type="submit" class="dropdown-item text-danger">Logout</button>
+    </form>
 </body>
 </html>
