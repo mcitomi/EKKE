@@ -23,5 +23,13 @@ function CheckAdmin(): void {
     }
 }
 
+function Logout(): void {
+    unset($_SESSION['u_id']);
+    unset($_SESSION['username']);
+    unset($_SESSION['is_admin']);
+    header("Location: login.php");
+    exit;
+}
+?>
 
 ?>

@@ -14,6 +14,8 @@ CheckAdmin();
     <title>Főoldal as Admin</title>
 </head>
 <body>
+    <h1>Üdv <?= $_SESSION['username'] ?></h1>
+    <p>Admin panel</p>
     
 </body>
 </html>

@@ -13,6 +13,8 @@ CheckLogged();
     <title>Főoldal</title>
 </head>
 <body>
+    <h1>Üdv <?= $_SESSION['username'] ?></h1>
+
     
 </body>
 </html>
