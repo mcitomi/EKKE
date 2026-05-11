@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Magasszint\u0171 programoz\u00E1si nyelvek 2\\ZH\\2025 tavasz\\ZH2_NAP_PTI_APP_PUBLIC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD665967-0544-4991-90F5-4527F1D63B16}|ZH2_NAP_APP\\ZH2_NAP_APP.csproj|c:\\users\\ekke\\troll ede\\ekke\\tant\u00E1rgyak\\magasszint\u0171 programoz\u00E1si nyelvek 2\\zh\\2025 tavasz\\zh2_nap_pti_app_public\\zh2_nap_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD665967-0544-4991-90F5-4527F1D63B16}|ZH2_NAP_APP\\ZH2_NAP_APP.csproj|solutionrelative:zh2_nap_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD665967-0544-4991-90F5-4527F1D63B16}|ZH2_NAP_APP\\ZH2_NAP_APP.csproj|c:\\users\\ekke\\troll ede\\ekke\\tant\u00E1rgyak\\magasszint\u0171 programoz\u00E1si nyelvek 2\\zh\\2025 tavasz\\zh2_nap_pti_app_public\\zh2_nap_app\\okosotthon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD665967-0544-4991-90F5-4527F1D63B16}|ZH2_NAP_APP\\ZH2_NAP_APP.csproj|solutionrelative:zh2_nap_app\\okosotthon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD665967-0544-4991-90F5-4527F1D63B16}|ZH2_NAP_APP\\ZH2_NAP_APP.csproj|c:\\users\\ekke\\troll ede\\ekke\\tant\u00E1rgyak\\magasszint\u0171 programoz\u00E1si nyelvek 2\\zh\\2025 tavasz\\zh2_nap_pti_app_public\\zh2_nap_app\\epulet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD665967-0544-4991-90F5-4527F1D63B16}|ZH2_NAP_APP\\ZH2_NAP_APP.csproj|solutionrelative:zh2_nap_app\\epulet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD665967-0544-4991-90F5-4527F1D63B16}|ZH2_NAP_APP\\ZH2_NAP_APP.csproj|c:\\users\\ekke\\troll ede\\ekke\\tant\u00E1rgyak\\magasszint\u0171 programoz\u00E1si nyelvek 2\\zh\\2025 tavasz\\zh2_nap_pti_app_public\\zh2_nap_app\\okosfunkcio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD665967-0544-4991-90F5-4527F1D63B16}|ZH2_NAP_APP\\ZH2_NAP_APP.csproj|solutionrelative:zh2_nap_app\\okosfunkcio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD665967-0544-4991-90F5-4527F1D63B16}|ZH2_NAP_APP\\ZH2_NAP_APP.csproj|c:\\users\\ekke\\troll ede\\ekke\\tant\u00E1rgyak\\magasszint\u0171 programoz\u00E1si nyelvek 2\\zh\\2025 tavasz\\zh2_nap_pti_app_public\\zh2_nap_app\\epulettipus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD665967-0544-4991-90F5-4527F1D63B16}|ZH2_NAP_APP\\ZH2_NAP_APP.csproj|solutionrelative:zh2_nap_app\\epulettipus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD665967-0544-4991-90F5-4527F1D63B16}|ZH2_NAP_APP\\ZH2_NAP_APP.csproj|c:\\users\\ekke\\troll ede\\ekke\\tant\u00E1rgyak\\magasszint\u0171 programoz\u00E1si nyelvek 2\\zh\\2025 tavasz\\zh2_nap_pti_app_public\\zh2_nap_app\\epitoceg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD665967-0544-4991-90F5-4527F1D63B16}|ZH2_NAP_APP\\ZH2_NAP_APP.csproj|solutionrelative:zh2_nap_app\\epitoceg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Magasszint\u0171 programoz\u00E1si nyelvek 2\\ZH\\2025 tavasz\\ZH2_NAP_PTI_APP_PUBLIC\\ZH2_NAP_APP\\Program.cs",
+              "RelativeDocumentMoniker": "ZH2_NAP_APP\\Program.cs",
+              "ToolTip": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Magasszint\u0171 programoz\u00E1si nyelvek 2\\ZH\\2025 tavasz\\ZH2_NAP_PTI_APP_PUBLIC\\ZH2_NAP_APP\\Program.cs",
+              "RelativeToolTip": "ZH2_NAP_APP\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T21:48:15.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EpuletTipus.cs",
+              "DocumentMoniker": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Magasszint\u0171 programoz\u00E1si nyelvek 2\\ZH\\2025 tavasz\\ZH2_NAP_PTI_APP_PUBLIC\\ZH2_NAP_APP\\EpuletTipus.cs",
+              "RelativeDocumentMoniker": "ZH2_NAP_APP\\EpuletTipus.cs",
+              "ToolTip": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Magasszint\u0171 programoz\u00E1si nyelvek 2\\ZH\\2025 tavasz\\ZH2_NAP_PTI_APP_PUBLIC\\ZH2_NAP_APP\\EpuletTipus.cs",
+              "RelativeToolTip": "ZH2_NAP_APP\\EpuletTipus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T21:46:27.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EpitoCeg.cs",
+              "DocumentMoniker": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Magasszint\u0171 programoz\u00E1si nyelvek 2\\ZH\\2025 tavasz\\ZH2_NAP_PTI_APP_PUBLIC\\ZH2_NAP_APP\\EpitoCeg.cs",
+              "RelativeDocumentMoniker": "ZH2_NAP_APP\\EpitoCeg.cs",
+              "ToolTip": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Magasszint\u0171 programoz\u00E1si nyelvek 2\\ZH\\2025 tavasz\\ZH2_NAP_PTI_APP_PUBLIC\\ZH2_NAP_APP\\EpitoCeg.cs",
+              "RelativeToolTip": "ZH2_NAP_APP\\EpitoCeg.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T21:24:52.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OkosFunkcio.cs",
+              "DocumentMoniker": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Magasszint\u0171 programoz\u00E1si nyelvek 2\\ZH\\2025 tavasz\\ZH2_NAP_PTI_APP_PUBLIC\\ZH2_NAP_APP\\OkosFunkcio.cs",
+              "RelativeDocumentMoniker": "ZH2_NAP_APP\\OkosFunkcio.cs",
+              "ToolTip": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Magasszint\u0171 programoz\u00E1si nyelvek 2\\ZH\\2025 tavasz\\ZH2_NAP_PTI_APP_PUBLIC\\ZH2_NAP_APP\\OkosFunkcio.cs",
+              "RelativeToolTip": "ZH2_NAP_APP\\OkosFunkcio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T21:17:52.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Okosotthon.cs",
+              "DocumentMoniker": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Magasszint\u0171 programoz\u00E1si nyelvek 2\\ZH\\2025 tavasz\\ZH2_NAP_PTI_APP_PUBLIC\\ZH2_NAP_APP\\Okosotthon.cs",
+              "RelativeDocumentMoniker": "ZH2_NAP_APP\\Okosotthon.cs",
+              "ToolTip": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Magasszint\u0171 programoz\u00E1si nyelvek 2\\ZH\\2025 tavasz\\ZH2_NAP_PTI_APP_PUBLIC\\ZH2_NAP_APP\\Okosotthon.cs",
+              "RelativeToolTip": "ZH2_NAP_APP\\Okosotthon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T21:17:31.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Epulet.cs",
+              "DocumentMoniker": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Magasszint\u0171 programoz\u00E1si nyelvek 2\\ZH\\2025 tavasz\\ZH2_NAP_PTI_APP_PUBLIC\\ZH2_NAP_APP\\Epulet.cs",
+              "RelativeDocumentMoniker": "ZH2_NAP_APP\\Epulet.cs",
+              "ToolTip": "C:\\Users\\EKKE\\Troll Ede\\EKKE\\Tant\u00E1rgyak\\Magasszint\u0171 programoz\u00E1si nyelvek 2\\ZH\\2025 tavasz\\ZH2_NAP_PTI_APP_PUBLIC\\ZH2_NAP_APP\\Epulet.cs",
+              "RelativeToolTip": "ZH2_NAP_APP\\Epulet.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T21:09:47.453Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
