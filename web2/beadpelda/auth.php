@@ -22,7 +22,7 @@ function CheckAdmin(): void {
         exit;
     }
 }
-
+    
 function Logout(): void {
     $_SESSION = [];
 

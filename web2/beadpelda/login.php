@@ -23,13 +23,8 @@ if($username == "" || $password == "") {
             $_SESSION['username'] = $user['username'];
             $_SESSION['is_admin'] = $user['is_admin'];
 
-            if($user['is_admin'] == 1) {
-                header("Location: index_admin.php");
-                exit;
-            } else {
-                header("Location: index.php");
-                exit;
-            }
+            header("Location: index.php");
+            exit;
         }
     } else {
         $hiba = "Hibás felhasználónév vagy jelszó!";
