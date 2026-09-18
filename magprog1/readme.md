@@ -1,22 +1,13 @@
-# HF: 7uj.txt be kellene fejezni
-# HF: 7uj.txt be kellene fejezni
-## Debug:
-`ctrl + f10`
-
 ## Linkek:
 
+- I. Félév
 https://tinyurl.com/troll-downloads
 http://tinyurl.com/2025MagProgKGS
-http://aries.ektf.hu/~ksanyi/mprog1/gyak2025.zip
 
 - II. Félév
 http://tinyurl.com/yym559je
 
-https://aries.ektf.hu/~ksanyi/magasprog2/1.txt
-https://aries.ektf.hu/~ksanyi/magasprog2/2026/Students.zip
-
-https://aries.ektf.hu/~ksanyi/magasprog2/2.txt
-https://aries.ektf.hu/~ksanyi/magasprog2/2026/konyvespart.zip
+https://ide.algopro.hu/
 
 ## Kommentek
 
@@ -25,8 +16,10 @@ https://aries.ektf.hu/~ksanyi/magasprog2/2026/konyvespart.zip
 átló, főátló, sor, oszlop!!
 - A 2. zh-ban lesznek majd Dictionary (elvileg semmi se tiltja), sajat max kivalsztas, orderby
 
-## random
-https://ide.algopro.hu/
+
+
+## VS Debug:
+`ctrl + f10`
 
 # C# Linuxon
 
