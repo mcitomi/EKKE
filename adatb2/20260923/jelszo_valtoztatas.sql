@@ -1,0 +1,1 @@
+ALTER USER HTHI2Q identified by "123";
