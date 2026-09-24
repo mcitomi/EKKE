@@ -1,0 +1,9 @@
+5.5
+Írjunk egy olyan alkalmazást, ahol a fõprogram feltölt egy 10000 elemû vektort véletlenszámokkal (2-50000)! 
+Az egyik szál a vektor elejétõl, a másik a végétõl kezdve kezdje el összeszámolni, hogy hány páratlan szám van a vektorban! (Középen találkoznak!) 
+Legyen egy közös változó, aminek az értékét mindkét szál 1-gyel növeli, ha talált egyet. 
+A növelés után írja ki a szál a közös változó értékét!(Ne használjon zárolást!). 
+Legyen mindkét szálnak egy-egy lokális változója, amelyben számolja, hogy hány páratlan talált a szál! 
+Mindkét szál egy-egy függvényt reprezentáljon, melyek ennek a lokális változónak az értékét adják vissza.
+A fõprogram írja ki a kapott két értékét, majd utána a közös változó értékét! Vajon egyeznek-e a számok? (Interlocked kell).
+Oldja meg a feladatot úgy is, hogy a két szál addig dolgozik, amíg "össze nem érnek", azaz nem a vektor felét dolgozzák fel! 

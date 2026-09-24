@@ -3,7 +3,7 @@
   
     internal class Program
     {
-        const int N = 100;
+        const int N = 1000000;
         static int[] numbers = new int[N];
 
         static long sum = 0;
@@ -26,22 +26,46 @@
 
         static public void Sum1()
         {
+            long sum1 = 0;
             for (int i = 0; i <  N / 2; i++)
             {
-                Interlocked.Add(ref sum, numbers[i]);   // elemi műveletek, nem vált közben szálat
-                //sum += numbers[i];                    // itt simán váltana
+                // Interlocked.Add(ref sum, numbers[i]);   // elemi műveletek, nem vált közben szálat
+                sum1 += numbers[i];                    // itt simán váltana
             }
+            Interlocked.Add(ref sum, sum1);
         }
 
         static public void Sum2()
         {
-            long sum1 = 0;
+            long sum2 = 0;
             for (int i = N - 1; i >= N/2; i--)
             {
                 //Interlocked.Add(ref sum, numbers[i]);
-                sum1 += numbers[i];
+                sum2 += numbers[i];
             }
-            Interlocked.Add(ref sum1, sum); // ez jobb, gyorsabb, mert nem interlockolunk minden számolásnál, csak a legvégén, így nem lassítja egymást a két szál a közös forrás miatt
+            Interlocked.Add(ref sum, sum2); // ez jobb, gyorsabb, mert nem interlockolunk minden számolásnál, csak a legvégén, így nem lassítja egymást a két szál a közös forrás miatt
+        }
+
+        public static void SumLock1()
+        {
+            for (int i = 0; i < N / 2; i++)
+            {
+                lock(numbers)
+                {
+                    sum += numbers[i];
+                }
+            }
+        }
+
+        public static void SumLock2()
+        {
+            for (int i = N / 2; i < N; i++)
+            {
+                lock(numbers)
+                {
+                    sum += numbers[i];
+                }
+            }
         }
 
         static void Main(string[] args)
@@ -82,6 +106,10 @@
             t1.Join();
             t2.Join();
             Console.WriteLine(sum);
+
+            sum = 0;
+            t1 = new Thread(SumLock1);
+            t2 = new Thread(SumLock2);
         }
     }
 }
