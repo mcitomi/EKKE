@@ -1,9 +1,11 @@
 ## Kovács Ádám
 
-https://drive.google.com/drive/folders/1J7KQRb_EMe8sUM6JJQed1ppY04A9neSH?usp=sharing
+Algo1.: https://drive.google.com/drive/folders/1J7KQRb_EMe8sUM6JJQed1ppY04A9neSH?usp=sharing
+Algo2.: https://drive.google.com/drive/folders/1OfjK4Plw_KGFEq5H-rSLXJi1uj_YhHG5
 
 https://tinyurl.com/kadam-share
 
+## Algo1:
 ### Colab projektjeim:
 - [algo1 4. alkalom feldatok](https://colab.research.google.com/drive/1B5pQH_6xZb651KU9wKoPtYoWILgKAHtL?usp=sharing)
 - [algo1 5. alkalom rolanddal](https://colab.research.google.com/drive/19A7Bg7P9VtZhwfhIf7ip9FNSl9GloU3l?usp=sharing)
@@ -11,7 +13,7 @@ https://tinyurl.com/kadam-share
 - [algo1 Hasítótáblák](https://colab.research.google.com/drive/1MrLFEIHV7sgVqDjwwcmBmydU2aZ9gJMy?usp=sharing)
 - [algo1 kadam bubbloesort stb](https://colab.research.google.com/drive/1Od_FEVbdp51mV9vm2wLk6c4sUQ3m6aAF?usp=sharing)
 
-## II zh papiron lesz:
+### ZH info:
 keresés
 rendezés
 hasitotabla
