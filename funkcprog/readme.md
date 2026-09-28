@@ -1,0 +1,1 @@
+Haskell funkcionalis programozasi nyelv
