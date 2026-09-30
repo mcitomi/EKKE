@@ -1,0 +1,23 @@
+autók
+    rendszám
+    ár
+    km
+    márka_id
+
+márkák
+    id,
+    márka_név,
+    márka_eredete
+
+Márkák:
+1, AUDI, német
+2, BMW, német
+
+ABC123, 2.000.000, 200.000, BMW, 1
+ABC124, 2.500.000, 150.000, AUDI, 2
+ABC125, 2.000.000, 350.000, BMW, 1
+
+1 -> *  Egy márka többször szerepelhet az autókban
+1 -> 1  Egyedi idegen kulcs
+* -> *  
+

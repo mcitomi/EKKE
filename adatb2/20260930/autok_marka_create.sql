@@ -1,0 +1,6 @@
+CREATE TABLE markak (
+    id INT PRIMARY KEY,
+    name VARCHAR2(250) NOT NULL,
+    country VARCHAR2(100) NOT NULL
+);
+
