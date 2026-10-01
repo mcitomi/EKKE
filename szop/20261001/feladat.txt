@@ -1,0 +1,13 @@
+A feladat: fejlesszünk olyan alkalmazást, amely 4 szálon keres prímszámokat; minden szál más-más
+számintervallumon dolgozzon! Az elõállított prímszámokat egy 50 elemet tárolni képes gyûjtõ (külön osztály)
+kezelje! Indítsunk 2 feldolgozó szálat, melyek a prímszámokat a képernyõre írják, az egyik feldolgozó
+szál kékkel, a másik sárgával írjon! A végén jelenítsük meg, hogy melyik feldolgozó szál hány prímet
+írt ki összesen a képernyõre!
+
+A Gyûjtõ osztály a listán kívül tartalmazza a leállást, indítást, és figyelje a termelõk
+és a fogyasztók számát, valamint a berak és kivesz metódusokat is tartalmazza.
+
+A fogyasztó osztály elkezd metódusa hívja meg a gyujto.kivesz metódusát.
+A termelõ osztály elkezd metódusa hívja meg a gyujto.berak metódust.
+
+A két osztály elkezd metódusaira mutassanak a szálmutatók az indításkor.
