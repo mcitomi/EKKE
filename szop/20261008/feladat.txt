@@ -1,0 +1,6 @@
+Írj egy programot, amely egész számokat generál, és egy tömbbe helyezi őket.
+Egészítsd ki a programot két metódussal. Az első 100 000 véletlenszerű egész számot ad a tömbhöz, 
+a második pedig megkísérel 100 000 elemet eltávolítani belőle. 
+Ez utóbbi egy 0 és 100 000–1 közötti számot generál, 
+és – amennyiben létezik ilyen elem – eltávolítja a számot az adott pozícióról (például írj nullát az eltávolított számok helyére).
+A főmetódus (main) kiírja a megmaradt számokat.
