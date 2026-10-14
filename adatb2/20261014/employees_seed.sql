@@ -1,0 +1,11 @@
+INSERT INTO employees (id, name, salary) VALUES (1, 'Bohár Dániel', 2150000);
+INSERT INTO employees (id, name, salary) VALUES (2, 'Deák Dániel', 2800000);
+INSERT INTO employees (id, name, salary) VALUES (3, 'Megadja Gábor', 1900000);
+INSERT INTO employees (id, name, salary) VALUES (4, 'Farkas Barbi', 1750000);
+INSERT INTO employees (id, name, salary) VALUES (5, 'Aczél Előd', 1600000);
+INSERT INTO employees (id, name, salary) VALUES (6, 'G. Fodor Gábor', 3500000);
+INSERT INTO employees (id, name, salary) VALUES (7, 'Bayer Zsolt', 4100000);
+INSERT INTO employees (id, name, salary) VALUES (8, 'Varga Judit (ex-celeb)', 100);
+INSERT INTO employees (id, name, salary) VALUES (9, 'Nagy Feró', 850000);
+INSERT INTO employees (id, name, salary) VALUES (10, 'Gáspár Győző', 1200000);
+COMMIT;

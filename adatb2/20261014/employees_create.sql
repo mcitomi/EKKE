@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS employees;
+
+CREATE TABLE IF NOT EXISTS employees (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR2(255) NOT NULL,
+    salary INTEGER NOT NULL CHECK (salary > 0)
+);
