@@ -11,7 +11,7 @@ https://ide.algopro.hu/
 
 ## Kommentek
 
-- nyeregpont: a mátrix egy eleme ami a sorban a legnagyobb de az oszlopban a legkisebb
+- nyeregpont: a mátrix egy eleme ami a sorban a legnagyobb de az oszlopban a legkisebb, vagy a sorban a legkisebb, oszlopban a legnagyobb
 - Az 1. féléves zh-ban nem lehet mátrix
 átló, főátló, sor, oszlop!!
 - A 2. zh-ban lesznek majd Dictionary (elvileg semmi se tiltja), sajat max kivalsztas, orderby
