@@ -31,11 +31,6 @@ CREATE OR REPLACE FUNCTION uzemanyagigeny (
     v_fuel_recommended space_missions.FUEL%TYPE := 0;
 BEGIN 
 
-    SELECT distance 
-    INTO v_distance
-    FROM space_missions
-    WHERE space_missions.id = p_id;
-
     SELECT COUNT(mission_id)
     INTO v_people_count
     FROM MISSION_CREW
@@ -46,6 +41,11 @@ BEGIN
         RETURN NULL;
     END IF;
 
+    SELECT distance 
+    INTO v_distance
+    FROM space_missions
+    WHERE space_missions.id = p_id;
+
     v_fuel_recommended := (v_distance * 0.5) + (v_people_count * 100);
 
     IF v_fuel_recommended > 5000 then
@@ -53,7 +53,7 @@ BEGIN
 
     END IF;
 
-    RETURN v_fuel_recommended;
+    RETURN ROUND(v_fuel_recommended, 2);
     
 END;
 /
