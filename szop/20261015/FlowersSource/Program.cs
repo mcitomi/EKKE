@@ -132,11 +132,10 @@ class Producer
     int Quantity;
     int Worktime;
     int Type;
-    public Producer(char type, int quantity, int worktime)
+    public Producer(int quantity, int worktime)
     {
         this.Worktime = worktime;
         this.Quantity = quantity;
-        this.Type = type;
     }
     public void Work()
     {
@@ -144,13 +143,13 @@ class Producer
 
         Supervisor.ProducerStarts();
 
-        FlowerType ftype = (FlowerType)Type;
-
         for (int i = 0; i < Quantity; i++)
         {
-            Supervisor.AddItem(new Flower(ftype, 0, i));
-           
-            Thread.Sleep(Worktime * 1000);
+            Supervisor.AddItem(new Flower((FlowerType)random.Next(0, 3), 0, i));
+
+            Console.WriteLine($"A termelő berakott 1 virágot {i} ");
+
+            Thread.Sleep(Worktime * 100);
         }
 
         Supervisor.ProducerStops();
@@ -172,7 +171,38 @@ class Consumer
     }
     public void Consume(object o) //no parameter if dedicated
     {
+        Supervisor.ConsumerStarts();
 
+        while (true)
+        {
+            try
+            {
+                Flower temp = Supervisor.Removeitem(this.Flower);
+
+                if (Amount == 2)
+                {
+                    Flower temp2 = Supervisor.Removeitem(this.Flower);
+
+                    lock (typeof(Program))
+                    {
+                        Console.ForegroundColor = temp2.Ccolor;
+                        Console.WriteLine($"{Id} elvett 2 csokrot: {temp} és {temp2}");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"{Id} elvett 1 csokrot: {temp}");
+
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"A termelők leálltak, ezért a fogyasztó {Id} is.");
+                break;
+            }
+
+        }
+        Supervisor.ConsumerStops();
 
     }
 
@@ -182,12 +212,27 @@ class Consumer
         private static void Main(string[] args)
         {
 
-            Producer pr1 = new Producer('A', 20, 10);
-            Producer pr2 = new Producer('B', 25, 20);
-            Producer pr3 = new Producer('C', 30, 30);
+            Producer pr1 = new Producer( 20, 10);
+            Producer pr2 = new Producer( 25, 20);
+            Producer pr3 = new Producer(30, 30);
             Consumer cr1 = new Consumer(FlowerType.rose, 1, 1);
             Consumer cr2 = new Consumer(FlowerType.daisy, 2, 2);
             Consumer cr3 = new Consumer(FlowerType.mix, 1, 3);
+
+            Thread t1 = new Thread(pr1.Work);
+            Thread t2 = new Thread(pr2.Work);
+            Thread t3 = new Thread(pr3.Work);
+
+            Thread t4 = new Thread(cr1.Consume);
+            Thread t5 = new Thread(cr2.Consume);
+            Thread t6 = new Thread(cr3.Consume);
+
+            t1.Start();
+            t2.Start();
+            t3.Start();
+            t4.Start();
+            t5.Start();
+            t6.Start();
 
         }
     }
