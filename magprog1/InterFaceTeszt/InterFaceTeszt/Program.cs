@@ -1,28 +1,30 @@
-﻿namespace InterFaceTeszt
+﻿interface IMyInterface
 {
-    class Matek : IAllatok
+    void MyMethod();
+    public void MyMethod2()
     {
-        public long Multiple(int a, int b)
-        {
-            return a * b;
-        }
-
-        public int Add(int a, int b)
-        {
-            return a + b;
-        }
-
-        //public Matek(int a, int b)
-        //{
-        //}
+        Console.WriteLine("Implemented");
     }
-    internal class Program
+}
+
+class MyClass : IMyInterface
+{
+    public void MyMethod()
     {
-        static void Main(string[] args)
-        {
-            Matek matek = new Matek();
-            Console.WriteLine(matek.Multiple(10, 10));
-            Console.WriteLine(matek.Add(1,2));
-        }
+        Console.WriteLine("Implemented");
+    }
+  /*  public void MyMethod2()
+    {
+        Console.WriteLine("Implemented in MyClass");
+    }*/
+}
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        MyClass myClass = new MyClass();
+        //myClass.MyMethod2();
+        IMyInterface obj = new MyClass();
+        obj.MyMethod2();
     }
 }
