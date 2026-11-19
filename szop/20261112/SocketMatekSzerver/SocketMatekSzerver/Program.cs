@@ -7,6 +7,7 @@ namespace SocketMatekSzerver
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
             string ip = "127.0.0.1";
@@ -24,49 +25,17 @@ namespace SocketMatekSzerver
 
             listener.Start();
 
-            TcpClient client = listener.AcceptTcpClient();
-
-            Console.WriteLine("Várakozás...");
-
-            StreamWriter wr = new StreamWriter(client.GetStream(), Encoding.UTF8);
-
-            StreamReader rd = new StreamReader(client.GetStream(), Encoding.UTF8);
-
-            wr.WriteLine("Matek szerver 1.0");
-
-            wr.Flush();
-
-            //wr.AutoFlush = true;
-
-            string resp = "";
-
-            while (resp.ToLower() != "bye")
+            while (true)
             {
-                string cmd = rd.ReadLine();
-                string[] result = cmd.Split('|');
+                TcpClient client = listener.AcceptTcpClient();
 
-                switch (result[0])
-                {
-                    case "BYE":
-                        wr.WriteLine("Bye");
-                        break;
+                Console.WriteLine("Várakozás...");
 
-                    case "ADD":
-                        wr.WriteLine(int.Parse(result[1]) + int.Parse(result[2]));
-                        break;
+                ClientComm clientcomm = new ClientComm(client);
+                Thread t = new Thread(clientcomm.ClientStart);
 
-                    default:
-                        wr.WriteLine("Ismeretlen parancs");
-                        break;
-                }
-
-                wr.Flush();
+                t.Start();
             }
-
-
-            Console.WriteLine("Vége");
-
-
         }
     }
 }

@@ -17,9 +17,9 @@ namespace SocketMatekClient
             string message = rd.ReadLine();
             Console.WriteLine(message);
 
-            string resp = "";
+            string valasz = "";
 
-            while (resp.ToLower() != "bye")
+            while (valasz.ToLower() != "bye")
             {
                 Console.WriteLine("Mit kérjek a szervertől?");
                 string cmd = Console.ReadLine();
@@ -30,9 +30,19 @@ namespace SocketMatekClient
 
                 Console.WriteLine("A szerver válasza:");
 
-                resp = rd.ReadLine();
+                valasz = rd.ReadLine();
 
-                Console.WriteLine(resp);
+                if(valasz == "OK*")
+                {
+                    while (valasz != "OK!")
+                    {
+                        Console.WriteLine(valasz);
+                        valasz = rd.ReadLine();
+                    }
+                }
+               
+
+                Console.WriteLine(valasz);
             }
 
             rd.Close();
