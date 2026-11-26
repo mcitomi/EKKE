@@ -11,50 +11,82 @@ namespace vaterapp
         StreamWriter wr;
         StreamReader rd;
 
+        (string, string) user = ("", "");
+
         public ClientHandler(TcpClient client)
         {
             wr = new StreamWriter(client.GetStream(), Encoding.UTF8);
 
             rd = new StreamReader(client.GetStream(), Encoding.UTF8);
 
-            wr.WriteLine("Vaterapp szerver");
+            wr.WriteLine("Üdv a VaterApp szerverén!");
 
             wr.Flush();
         }
 
         public void ClientStart()
         {
-            string response = "";
+            string clientResponse = "";
 
-            while (response.ToUpper() == "BYE")
+            while (clientResponse.ToUpper() != "BYE")
             {
-                string cmd = rd.ReadLine();
-
-                string[] results = cmd.Split('|');
-
-                switch(results[0])
+                try
                 {
-                    case "BYE":
-                        wr.WriteLine("Bye!");
-                        break;
+                    clientResponse = rd.ReadLine();
 
-                    case "ADD":
-                        break;
+                    string[] results = clientResponse.Split('|');
 
-                    case "LIST":
-                        break;
+                   
 
-                    case "LOGIN":
-                        break;
+                    switch (results[0])
+                    {
+                        case "BYE":
+                            wr.WriteLine("Bye");
+                            break;
 
-                    case "LICIT":
-                        break;
+                        case "ADD":
+                            break;
 
-                    default:
-                        wr.WriteLine("Ismeretlen parancs!");
-                        break;
+                        case "LIST":
+                            break;
+
+                        case "WHOAMI":
+                            wr.WriteLine(user.Item1);
+                            break;
+
+                        case "LOGIN":
+
+
+                            user = (results[1], results[2]);
+
+                            wr.WriteLine("Sikeres bejelentkezés!");
+                            
+                            break;
+
+                        case "LICIT":
+                            break;
+
+                        default:
+                            wr.WriteLine("Ismeretlen parancs!");
+                            break;
+                    }
+
+                    wr.Flush();
                 }
+                catch (IOException ioe)
+                {
+                    Console.WriteLine("Egy kliens kilépett");
+                    break;
+                }
+                catch (Exception e)
+                {
+                    wr.WriteLine($"ERR|{e.Message}");
+                    wr.Flush();
+                }
+               
             }
+
+
 
             Console.WriteLine("Kapcsolat vége.");
         }

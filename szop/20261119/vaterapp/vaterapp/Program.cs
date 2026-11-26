@@ -29,6 +29,8 @@ namespace vaterapp
 
             listener.Start();
 
+            Console.WriteLine("A szerver elindult!");
+
             while (true)
             {
                 TcpClient client = listener.AcceptTcpClient();
